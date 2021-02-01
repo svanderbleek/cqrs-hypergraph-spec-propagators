@@ -42,6 +42,12 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
 
+## Oddshots
+
+* Lean functional in place updates
+
+> The Lean runtime implements the Perseus algorithm for functional in-place updating when possible. It's a very clever reimagining of reference counting from basic principles.
+
 ## Approach
 
 Formal models are becoming more common in industry https://github.com/elastic/elasticsearch-formal-models
