@@ -32,6 +32,14 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > And another class of questions are about how the domain has changed over time, ie "What's changed since offset X?"
 
+> Some example projections might be:
+
+> * A list of endpoints — That is all you get. There is nothing you do not need.
+> * A list of schemas / types represented as a list of rules (great for building a test suite), with all their references flattened, or as a JSON schema.
+> * Your API represented in OpenAPI — A traditional spec format is just another projection of the core data model. Even some of Optic’s more advanced features, such as support for Generics, can be projected onto OpenAPI.
+> * the changes made since the last version of the API.
+> * projections optimized for generating code
+
 * git for apis https://useoptic.com/blog/git-for-apis
 
 ## Definitions
