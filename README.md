@@ -14,12 +14,17 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > What is a specification?
 
-> Simple for humans to work with and provide a great developer experience.
-> Faithfully encode the interface of the API they describe.
-> Representative of the domain with rich abstractions that are useful for the task at hand (design, code generation, doc gen).
-> Stable. Breaking changes in complex specification are expensive for users and toolmakers.
-> Easy for tooling built on the spec to query the data they need. The interface should be stable for many years and the domain logic should not have to be replicated in tooling itself.
+> * Simple for humans to work with and provide a great developer experience.
+> * Faithfully encode the interface of the API they describe.
+> * Representative of the domain with rich abstractions that are useful for the task at hand (design, code generation, doc gen).
+> * Stable. Breaking changes in complex specification are expensive for users and toolmakers.
+> * Easy for tooling built on the spec to query the data they need. The interface should be stable for many years and the domain logic should not have to be replicated in tooling itself.
 
+> We need models optimized for:
+
+> * Human Readability: so programmers can easily read and understand the API being spec'd.
+> * Human Writability: so programmers can quickly write and modify the spec with productive abstractions.
+> * Machine Readability: so tools can query the information in the spec relevant to them.
   
 > Many important questions can be answered with nothing but the facts ie "Which fields are required?"
 
