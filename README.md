@@ -151,9 +151,11 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Approach
 
-Formal models are becoming more common in industry https://github.com/elastic/elasticsearch-formal-models
+Meaningful versioning is in the industry https://www.conventionalcommits.org/en/v1.0.0/
 
-What we propose should be verifiable as a formal model. To do this we need to define the properties we are interested in preserving.
+Formal models are in the industry https://github.com/elastic/elasticsearch-formal-models
+
+What we propose should provide meaningful versioning and be verifiable as a formal model. To do this we need to define the properties we are interested in preserving.
 
 Key Questions
 
