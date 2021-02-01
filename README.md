@@ -9,3 +9,7 @@ title is a joke, research dumping ground for formal models of api dependencies
 ## Tools
 
 * a verification tool for weighted kripke graphs https://github.com/jonasfj/WKTool
+
+## Industry
+
+* Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
