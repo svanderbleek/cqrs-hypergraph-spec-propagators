@@ -24,3 +24,4 @@ title is a joke, research dumping ground for formal models of api dependencies
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
+* Redgate Compliant Database DevOps https://www.red-gate.com/
