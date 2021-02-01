@@ -100,6 +100,8 @@ Commentary https://news.ycombinator.com/item?id=24592568
 
 ## Oddshots
 
+* EVM semantics https://github.com/kframework/evm-semantics
+
 * Lean functional in place updates
 
 > The Lean runtime implements the Perseus algorithm for functional in-place updating when possible. It's a very clever reimagining of reference counting from basic principles.
