@@ -104,7 +104,11 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > Pijul is a free and open source (GPL2) distributed version control system. Its distinctive feature is to be based on a sound theory of patches, which makes it easy to learn and use, and really distributed.
 
-Commentary https://news.ycombinator.com/item?id=24592568
+> https://pijul.com/model/#pushouts-and-distributed-algorithms
+
+> Pijul commentary https://news.ycombinator.com/item?id=24592568
+> Git rebase in depth https://news.ycombinator.com/item?id=19877811
+> CRDT the hard parts https://news.ycombinator.com/item?id=23802208
 
 * Optic domain engine https://github.com/opticdev/optic
 
@@ -129,6 +133,8 @@ Commentary https://news.ycombinator.com/item?id=24592568
 * Clojure Spec https://clojure.org/about/spec
 
 * Formal Verification of Smart Contracts with the K Framework https://www.apriorit.com/dev-blog/592-formal-verification-with-k-framework
+
+* Versioning in an Event Sourced System https://leanpub.com/esversioning/read
 
 ## Oddshots
 
