@@ -41,3 +41,9 @@ title is a joke, research dumping ground for formal models of api dependencies
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
+
+## Approach
+
+Formal models are becoming more common in industry https://github.com/elastic/elasticsearch-formal-models
+
+What we propose should be verifiable as a formal model. To do this we need to define the properties we are interested in preserving.
