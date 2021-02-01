@@ -96,6 +96,8 @@ Commentary https://news.ycombinator.com/item?id=24592568
 
 * Clojure Spec https://clojure.org/about/spec
 
+* Formal Verification of Smart Contracts with the K Framework https://www.apriorit.com/dev-blog/592-formal-verification-with-k-framework
+
 ## Oddshots
 
 * Lean functional in place updates
