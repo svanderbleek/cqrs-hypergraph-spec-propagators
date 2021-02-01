@@ -41,6 +41,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > CQRS stands for Command Query Responsibility Segregation. It's a pattern that I first heard described by Greg Young. At its heart is the notion that you can use a different model to update information than the model you use to read information. For some situations, this separation can be valuable, but beware that for most systems CQRS adds risky complexity.
 
+* CQRS MSFT https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs
+
 * Distributed version control https://en.wikipedia.org/wiki/Distributed_version_control
 
 > In software development, distributed version control (also known as distributed revision control) is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer.[1] Compared to centralized version control, this enables automatic management branching and merging, speeds up most operations (except pushing and pulling), improves the ability to work offline, and does not rely on a single location for backups.[1][2][3][4] Git, the world's most popular version control system,[5] is a distributed version control system.
