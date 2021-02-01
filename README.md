@@ -94,6 +94,8 @@ Commentary https://news.ycombinator.com/item?id=24592568
 
 > Omitted Default Values
 
+* Clojure Spec https://clojure.org/about/spec
+
 ## Oddshots
 
 * Lean functional in place updates
