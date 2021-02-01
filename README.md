@@ -54,6 +54,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > Pijul is a free and open source (GPL2) distributed version control system. Its distinctive feature is to be based on a sound theory of patches, which makes it easy to learn and use, and really distributed.
 
+Commentary https://news.ycombinator.com/item?id=24592568
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
