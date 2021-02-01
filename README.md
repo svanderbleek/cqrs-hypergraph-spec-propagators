@@ -42,6 +42,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
 
+> A specification for adding human and machine readable meaning to commit messages
+
 ## Oddshots
 
 * Lean functional in place updates
