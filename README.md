@@ -150,4 +150,7 @@ What we propose should be verifiable as a formal model. To do this we need to de
 Key Questions
 
 * how would I introduce changelog spec to an existing spec?
+* can we solve the inference problem? (inferring most general scehma changelog from event stream)
+
+The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorithm
 
