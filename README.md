@@ -68,6 +68,16 @@ Commentary https://news.ycombinator.com/item?id=24592568
 
 * https://semver.org/
 
+* Data Contract Versioning in WCF https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/data-contract-versioning
+
+> Breaking vs. Nonbreaking Changes
+
+> Adding and Removing Data Members
+
+> Required Data Members
+
+> Omitted Default Values
+
 ## Oddshots
 
 * Lean functional in place updates
