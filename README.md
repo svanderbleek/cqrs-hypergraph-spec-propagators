@@ -44,6 +44,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > A specification for adding human and machine readable meaning to commit messages
 
+* https://semver.org/
+
 ## Oddshots
 
 * Lean functional in place updates
