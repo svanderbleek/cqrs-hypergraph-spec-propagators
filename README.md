@@ -122,13 +122,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Data Contract Versioning in WCF https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/data-contract-versioning
 
-> Breaking vs. Nonbreaking Changes
-
-> Adding and Removing Data Members
-
-> Required Data Members
-
-> Omitted Default Values
+> * Breaking vs. Nonbreaking Changes
+> * Adding and Removing Data Members
+> * Required Data Members
+> * Omitted Default Values
 
 * Clojure Spec https://clojure.org/about/spec
 
