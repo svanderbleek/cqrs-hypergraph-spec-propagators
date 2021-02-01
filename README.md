@@ -107,3 +107,8 @@ Commentary https://news.ycombinator.com/item?id=24592568
 Formal models are becoming more common in industry https://github.com/elastic/elasticsearch-formal-models
 
 What we propose should be verifiable as a formal model. To do this we need to define the properties we are interested in preserving.
+
+Key Questions
+
+* how would I introduce changelog spec to an existing spec?
+
