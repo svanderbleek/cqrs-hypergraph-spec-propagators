@@ -112,6 +112,14 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Optic domain engine https://github.com/opticdev/optic
 
+* Unison Files https://www.cis.upenn.edu/~bcpierce/unison/
+
+* Unison language https://www.unisonweb.org/
+
+> content-adressable programming language
+
+> https://news.ycombinator.com/item?id=22156370
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
