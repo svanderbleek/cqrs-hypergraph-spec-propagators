@@ -11,6 +11,15 @@ title is a joke, research dumping ground for formal models of api dependencies
 * Changelog spec
   * demo https://opticdev.github.io/changelog-spec-demo/
   * Building a Better API Specification https://useoptic.com/blog/chanelog-specs-part1
+
+> What is a specification?
+
+> Simple for humans to work with and provide a great developer experience.
+> Faithfully encode the interface of the API they describe.
+> Representative of the domain with rich abstractions that are useful for the task at hand (design, code generation, doc gen).
+> Stable. Breaking changes in complex specification are expensive for users and toolmakers.
+> Easy for tooling built on the spec to query the data they need. The interface should be stable for many years and the domain logic should not have to be replicated in tooling itself.
+
   
 > Many important questions can be answered with nothing but the facts ie "Which fields are required?"
 
