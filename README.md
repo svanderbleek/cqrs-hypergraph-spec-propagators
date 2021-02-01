@@ -98,6 +98,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 Commentary https://news.ycombinator.com/item?id=24592568
 
+* Optic domain engine https://github.com/opticdev/optic
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
