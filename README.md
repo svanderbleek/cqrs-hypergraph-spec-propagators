@@ -46,6 +46,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > Version control systems are essential for managing the distributed development of large software projects. We present a formal model for reasoning about version control. In particular, we give a general definition of patch. Patches abstract over the data on which they operate, making our framework equally suited for version control of everything from highly-structured XML files to blobs of bits. We model repositories as a multiset of patches. The mathematical definitions of patches and repositories enable us to reason about complicated issues such as conflicts and conflict resolution.
 
+* A Categorical Theory of Patches 
+
 * A formalization of darcs patch theory using inverse semigroups
 
 * Current Concepts in Version Control Systems https://arxiv.org/pdf/1405.3496.pdf
