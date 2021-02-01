@@ -24,6 +24,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
 
+> Dependency graphs, as introduced more than 20 years ago by Liu and Smolka, are oriented graphs with hyperedges that connect nodes with sets of target nodes in order to represent causal dependencies in the graph. Numerous verification problems can be reduced into the problem of computing a minimum or maximum fixed-point assignment on dependency graphs
+
 ## Tools
 
 * a verification tool for weighted kripke graphs https://github.com/jonasfj/WKTool
