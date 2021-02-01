@@ -8,6 +8,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > A challenge with event sourced systems is that events put in the event store years ago must be readable today, even though the software has gone through numerous changes, Greg Young stated in his presentation at this year’s DDD eXchange conference. There are downstream consumers like projections and other systems that must be able to handle old as well as new versions of events.
 
+## Definitions
+
+* CQS https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
+* CQRS https://martinfowler.com/bliki/CQRS.html#:~:text=CQRS%20stands%20for%20Command%20Query,you%20use%20to%20read%20information.
 
 ## Research
 
