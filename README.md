@@ -126,6 +126,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * A catalogue of inter-parameter dependencies in RESTful web APIs http://personal.us.es/sergiosegura/files/papers/martinlopez19-icsoc.pdf
 
+* Towards User-Friendly Projectional Editors https://sjmulder.nl/dl/pdf/unsorted/2014%20-%20Voelter%20et%20al%20-%20Towards%20User-Friendly%20Projectional%20Editors.pdf
+
 ## Future Direction
 
 * QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs https://arxiv.org/pdf/1912.09686
