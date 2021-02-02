@@ -102,6 +102,19 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > This work thus bridges algebra and denotational semantics in order to reveal the structure of dependencies induced by first-order quantifiers, and lays the foundations for a mechanized analysis of causality in programming languages.
 
+* Example-driven web api specification discovery http://openaccess.uoc.edu/webapps/o2/bitstream/10609/78206/6/Ed-douibi_et_al_Example-driven_Web_API_Specification_Discovery_preprint.pdf
+
+* Automatic generation of test cases for REST APIs: a specification-based approach https://modeling-languages.com/automatic-generation-of-test-cases-for-rest-apis/
+
+* Towards extracting web api specifications from documentation https://annieying.ca/papers/msr18.pdf
+
+* APIComposer: Data-driven composition of REST APIs https://modeling-languages.com/wp-content/uploads/2018/08/esocc2018.pdf
+
+* REST API Auto Generation: A Model-Based Approach https://www.researchgate.net/profile/Samer_Zein/publication/344403957_REST_API_Auto_Generation_A_Model-Based_Approach/links/5f71dddba6fdcc0086438ed0/REST-API-Auto-Generation-A-Model-Based-Approach.pdf
+
+* Semantic Restful Service Composition Using Task Specification
+
+* Automated generation of client-specific backends utilizing existing microservices and architectural knowledge
 
 ## Tools
 
