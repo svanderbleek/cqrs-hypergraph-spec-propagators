@@ -238,6 +238,8 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 * great expectations https://greatexpectations.io/
 
+* https://meroxa.com/
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
