@@ -60,6 +60,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > In software development, distributed version control (also known as distributed revision control) is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer.[1] Compared to centralized version control, this enables automatic management branching and merging, speeds up most operations (except pushing and pulling), improves the ability to work offline, and does not rely on a single location for backups.[1][2][3][4] Git, the world's most popular version control system,[5] is a distributed version control system.
 
+* dependence analysis https://en.m.wikipedia.org/wiki/Dependence_analysis
+
 ## Research
 
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
