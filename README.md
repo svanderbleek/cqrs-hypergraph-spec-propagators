@@ -254,6 +254,10 @@ Data diff
 
 GitHub repo of sql
 
+* clearly defined https://clearlydefined.io/about
+
+Dependencies licenses
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
