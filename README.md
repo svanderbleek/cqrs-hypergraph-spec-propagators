@@ -194,6 +194,11 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > commentary on diamond https://stephencoakley.com/2019/04/24/how-rust-solved-dependency-hell
 
+* great expectations https://greatexpectations.io/
+
+data expectations https://docs.greatexpectations.io/en/latest/reference/core_concepts/expectations/expectations.html#expectations
+data docs https://docs.greatexpectations.io/en/latest/reference/core_concepts/data_docs.html#data-docs
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
@@ -248,7 +253,6 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 > granmarly for your code 
 
-* great expectations https://greatexpectations.io/
 
 * https://meroxa.com/
 
