@@ -347,3 +347,4 @@ API calls in cloud control plane, apis have audit log (custodian has subscribe a
 
 * distributed tracing
 * namespacing, environemnts, existing versioning/release
+* declared/discovered general injestion lattice definition and model building
