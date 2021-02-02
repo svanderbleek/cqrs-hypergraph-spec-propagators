@@ -168,6 +168,8 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 * https://www.opslevel.com/
 
+* https://konghq.com/kong-konnect#insomnia
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
