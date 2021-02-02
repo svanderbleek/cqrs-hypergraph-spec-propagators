@@ -68,6 +68,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > There is a simple algorithm for finding the most general unifier of a set of expressions. First, we need to define the disagreement set of a set of expressions. This is found by (textually) finding the first symbol starting from the left that is not the same in every expression and extracting the subexpressions that begin with that symbol at that position in each expression of the set. The resulting set of subexpressions is the disagreement set.
 
+> If one is willing to use a dag (directed acyclic graph) representation for terms, then this exponential growth rate does not occur. Paterson and Wegman [1978] have given an efficient linear-time unification algorithm based on representing terms as dags.
+
 ## Research
 
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
