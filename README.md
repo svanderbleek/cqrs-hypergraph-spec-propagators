@@ -200,6 +200,7 @@ title is a joke, research dumping ground for formal models of api dependencies
   * epectation glossary https://docs.greatexpectations.io/en/latest/reference/glossary_of_expectations.html#expectation-glossary
   * data docs https://docs.greatexpectations.io/en/latest/reference/core_concepts/data_docs.html#data-docs
   * data docs reference https://docs.greatexpectations.io/en/latest/reference/core_concepts.html#reference-core-concepts-data-docs
+  * validation https://docs.greatexpectations.io/en/latest/reference/core_concepts/validation.html#validation
 
 ## Industry
 
