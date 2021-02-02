@@ -256,7 +256,7 @@ GitHub repo of sql
 
 * clearly defined https://clearlydefined.io/about
 
-Dependencies licenses
+Dependencies licenses https://crates.io/crates/cl-to-cd
 
 ## Oddshots
 
