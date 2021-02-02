@@ -308,3 +308,5 @@ this is a form of program analysis, abstract evaluation of a spec accumulating f
 evolving property graphs of software systems
 
 need to enable blob optimization of analysis don't need full contents
+
+can [hash](https://hash.ai/) simulate companies depending on each others api releases
