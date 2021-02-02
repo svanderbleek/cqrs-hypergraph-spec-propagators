@@ -98,6 +98,11 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Software Versioning with Microservices through the API Gateway Design Pattern
 
+* first order causality http://www.lix.polytechnique.fr/Labo/Samuel.Mimram/docs/mimram_first_order_causality_long.pdf
+
+> This work thus bridges algebra and denotational semantics in order to reveal the structure of dependencies induced by first-order quantifiers, and lays the foundations for a mechanized analysis of causality in programming languages.
+
+
 ## Tools
 
 * a verification tool for weighted kripke graphs https://github.com/jonasfj/WKTool
