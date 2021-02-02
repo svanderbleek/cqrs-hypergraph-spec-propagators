@@ -319,4 +319,4 @@ Data sources: Log files, network topologies
 
 Properties analyzed: versioning, dependency, security, behavior
 
-API calls in cloud control plane, apis have audit log (custodian has subscribe and invoke policy)
+API calls in cloud control plane, apis have audit log (custodian has subscribe and invoke policy, real-time using flight recording)
