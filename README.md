@@ -258,6 +258,10 @@ GitHub repo of sql
 
 Dependencies licenses https://crates.io/crates/cl-to-cd
 
+* BMI discovery https://docs.bmc.com/docs/discovery/documentation-home-457408541.html
+
+They get to install agents
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
