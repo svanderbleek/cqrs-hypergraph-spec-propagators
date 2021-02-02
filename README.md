@@ -201,7 +201,7 @@ Nix packages represent versioned specs if we consider a fact language of only de
 
 Given a stream of API events find the most general changelog describing it
 
-* [rundemo](demo.link)
+* [demo](https://github.com/svanderbleek/changelog-spec-inference-demo)
 
 ### Criticism
 
