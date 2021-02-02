@@ -167,6 +167,7 @@ What we propose should provide meaningful versioning and be verifiable as a form
 
 * how would I introduce changelog spec to an existing spec?
 * can we solve the inference problem? (inferring most general scehma changelog from event stream)
+* who am I breaking?
 
 The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorithm
 
