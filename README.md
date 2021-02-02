@@ -240,6 +240,8 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 * https://meroxa.com/
 
+* https://www.basedash.com/
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
