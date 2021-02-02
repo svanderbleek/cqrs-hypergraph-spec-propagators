@@ -146,6 +146,30 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 >  Fact Extraction is one such static analysis technique that extracts a base model of the underlying software containing properties of the system entities (e.g., variables, functions, files/classes) and their relationships, and stores them in the form of a database of facts (factbase). This base model can then be queried and analysed by developers to reveal higher-level design information, such as dataflow between various modules of a software system. Currently, approaches to building system models scale fairly well to large single systems; factbases can be created using time and resources comparable to that of the compilation process. However, software systems evolve over time, and these analyses need to be redone as the source code changes. While incremental compilation techniques have the potential to greatly reduce the time taken to rebuild the systems themselves, as yet there has been little research into tools that support incremental analysis of changing artifacts to produce revised factbases. This thesis proposes an extraction and analysis framework that is more amenable to creating models from changing artifacts: an Incremental Extraction and Analysis Framework. In particular, we focus on how changes at the file level - i.e., modifications to source files as well as the addition and removal of source files - can impact a previously extracted model and analysis. We evaluate our proposed framework by performing a case study on a build of the Linux Kernel. First, we compare two approaches to extracting a revised factbase from a new version of the build: one that uses a traditional approach and one that uses our proposed incremental extraction techniques. Then, we compare two approaches to analysing revised factbases: one that uses an incremental approach and one that does not. We found that significant performance improvements can be made in extracting a revised factbase when using an incremental approach, with extraction times being reduced by at least 50%, while re-analysing a revised factbase using an incremental approach grows linearly in terms of the number affected facts in the best case and follows an S-shaped growth in the worst case. We found that the cause for the observed exponential growth could be traced to a subset of facts, rather than being the result of a gradual increase of an analysis' search space.
 
+> 2 Background & Related Work 6
+> * 2.1 Fact Extraction as Compilation . . . . . . . . . . . . . . . . . . . . . . . . 6
+> * 2.2 Factbases as Property Graphs . . . . . . . . . . . . . . . . . . . . . . . . . 9
+> * 2.2.1 Tuple-Attribute Format . . . . . . . . . . . . . . . . . . . . . . . . 9
+> * 2.2.2 Datalog . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+> * 2.3 Source Code Models as Property Graphs . . . . . . . . . . . . . . . . . . . 11
+> * 2.4 Fact Extraction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+> * 2.5 Incremental Model Extraction . . . . . . . . . . . . . . . . . . . . . . . . . 13
+> * 2.6 Incremental Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+> 3 Methodology 18
+> * 3.1 The Naive Extraction Process (NEP) . . . . . . . . . . . . . . . . . . . . . 19
+> * 3.2 The Incremental Extraction Process (IEP) . . . . . . . . . . . . . . . . . . 20
+> * 3.2.1 Re-Extracting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+> * 3.2.2 Diff & Replace . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+> * 3.2.3 Update . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+> * 3.2.4 Creating Meta Facts . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+> * 3.3 The Naive Analysis Process (NAP) . . . . . . . . . . . . . . . . . . . . . . 27
+> * 3.4 The Incremental Analysis Process (IAP) . . . . . . . . . . . . . . . . . . . 27
+> * 3.4.1 Detecting Meta Facts . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+> * 3.4.2 Propagating Meta Facts . . . . . . . . . . . . . . . . . . . . . . . . 29
+> * 3.4.3 Updating Analysis(Sys) . . . . . . . . . . . . . . . . . . . . . . . . 32
+> * 3.5 Implementing the IEAP . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+
 * Graph data management of evolving dependency graphs for multi-versioned codebases
 
 * Lifting Datalog-Based Analyses to Software Product Lines https://arxiv.org/pdf/1907.02192.pdf
