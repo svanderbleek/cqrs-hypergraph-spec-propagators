@@ -147,6 +147,8 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 > While the problem of cascading version bumps is a real question that applies to semantic versioning in general, the "cascading version bumps" Rich is referring to in the Clojure ecosystem stem from a much more mundane source: best practices is to specify a specific version of a dependency in your package metadata. When a new version of a dependency comes out, you need to bump the version of a package so that you can update the recorded version of the dependency... and so forth.
 
+* codemeta https://codemeta.github.io/
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
