@@ -312,3 +312,9 @@ evolving property graphs of software systems
 need to enable blob optimization of analysis don't need full contents
 
 can [hash](https://hash.ai/) simulate companies depending on each others api releases
+
+Does test automation  exercise api? We can injest 
+
+Data sources: Log files, network topologies
+
+Properties analyzed: versioning, dependency, security, behavior
