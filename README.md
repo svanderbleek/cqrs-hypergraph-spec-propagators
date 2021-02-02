@@ -197,7 +197,9 @@ title is a joke, research dumping ground for formal models of api dependencies
 * great expectations https://greatexpectations.io/
 
 data expectations https://docs.greatexpectations.io/en/latest/reference/core_concepts/expectations/expectations.html#expectations
+epectation glossary https://docs.greatexpectations.io/en/latest/reference/glossary_of_expectations.html#expectation-glossary
 data docs https://docs.greatexpectations.io/en/latest/reference/core_concepts/data_docs.html#data-docs
+data docs reference https://docs.greatexpectations.io/en/latest/reference/core_concepts.html#reference-core-concepts-data-docs
 
 ## Industry
 
