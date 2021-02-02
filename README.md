@@ -202,6 +202,10 @@ title is a joke, research dumping ground for formal models of api dependencies
   * data docs reference https://docs.greatexpectations.io/en/latest/reference/core_concepts.html#reference-core-concepts-data-docs
   * validation https://docs.greatexpectations.io/en/latest/reference/core_concepts/validation.html#validation
 
+* DOOP framework java pointer analysis http://doop.program-analysis.org/
+
+> Doop builds on the idea of specifying pointer analysis algorithms declaratively, using Datalog: a logic-based language for defining (recursive) relations. Doop carries the declarative approach further than past work (such as bddbddb) by describing the full end-to-end analysis in Datalog and optimizing aggressively through exposition of the representation of relations (for example indexing) to the Datalog language level.
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
