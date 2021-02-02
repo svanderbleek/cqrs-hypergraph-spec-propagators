@@ -257,3 +257,5 @@ Spec with name is enough in the Hickey model
 ## Strategy
 
 full automation, inference engine, formal behavior tracking, expansion eat ops level lunch
+
+autodiscovery of formal models within a software project, model tracking, model breaking notifications, model management features, data defined contract inference
