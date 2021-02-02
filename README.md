@@ -157,13 +157,13 @@ Formal models are in the industry https://github.com/elastic/elasticsearch-forma
 
 What we propose should provide meaningful versioning and be verifiable as a formal model. To do this we need to define the properties we are interested in preserving.
 
-Key Questions
+### Key Questions
 
 * how would I introduce changelog spec to an existing spec?
 * can we solve the inference problem? (inferring most general scehma changelog from event stream)
 
 The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorithm
 
-Real Examples
+### Dataset Examples
 
 Nix packages represent versioned specs if we consider a fact language of only dependencies. Versions of packages differ by changing their dependencies. We can apply our reverse algorithm to generate a changelog spec from the Nix historical dataset.
