@@ -242,6 +242,10 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 * https://www.basedash.com/
 
+* cloud custodian
+
+Diff policies ci policies
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
