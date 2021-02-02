@@ -187,6 +187,11 @@ What we propose should provide meaningful versioning and be verifiable as a form
 
 The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorithm
 
+### Data Driven
+
+* real time traces
+* api log ingestion?
+
 ### Formalism
 
 Pushouts in category of fact operators
