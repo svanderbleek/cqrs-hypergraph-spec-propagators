@@ -261,3 +261,5 @@ Spec with name is enough in the Hickey model
 full automation, inference engine, formal behavior tracking, expansion eat ops level lunch
 
 autodiscovery of formal models within a software project, model tracking, model breaking notifications, model management features, data defined contract inference
+
+api monitoring? integrate with or compete with?
