@@ -240,6 +240,8 @@ Pushouts in category of fact operators
 
 * Free conservative co-completion
 
+* how does it handle application to code and behaviors?
+
 ### Dataset Examples
 
 Nix packages represent versioned specs if we consider a fact language of only dependencies. Versions of packages differ by changing their dependencies. We can apply our reverse algorithm to generate a changelog spec from the Nix historical dataset.
