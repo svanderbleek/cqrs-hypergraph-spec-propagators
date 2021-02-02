@@ -280,3 +280,5 @@ autodiscovery of formal models within a software project, model tracking, model 
 api monitoring? integrate with or compete with?
 
 inject service mesh (istio.io)
+
+relate to projectional editing
