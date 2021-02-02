@@ -349,3 +349,4 @@ API calls in cloud control plane, apis have audit log (custodian has subscribe a
 * namespacing, environemnts, existing versioning/release
 * declared/discovered general injestion lattice definition and model building
 * should apply to method calls of libraries as well as apis
+* focus on existence information, fields, does generalize to other information reducers? Crdt?
