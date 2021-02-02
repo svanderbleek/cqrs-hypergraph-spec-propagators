@@ -64,6 +64,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * projectional editing https://martinfowler.com/bliki/ProjectionalEditing.html
 
+* most general unifier http://www.mathcs.duq.edu/simon/Fall04/notes-7-4/node6.html
+
+> There is a simple algorithm for finding the most general unifier of a set of expressions. First, we need to define the disagreement set of a set of expressions. This is found by (textually) finding the first symbol starting from the left that is not the same in every expression and extracting the subexpressions that begin with that symbol at that position in each expression of the set. The resulting set of subexpressions is the disagreement set.
+
 ## Research
 
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
