@@ -183,6 +183,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > Variability-aware computing is the ability to efficiently compute over values from different worlds at the same time. A set of worlds is defined in terms of a set of features F. A world is defined by a configuration ρ, where each feature can be either present or absent. A set of worlds is defined by a propositional formula over features. Each software artifact can be labeled with a Presence Condition (PC): a propositional formula specifying the set of worlds in which this artifact exists. Datalog facts are an example of artifacts.
 
+* Scalable, Example-Based Refactorings with Refaster https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41876.pdf
+
+> We discuss Refaster, a tool that uses normal, compilable before-and-after examples of Java code to specify a Java refactoring. Refaster has been used successfully by the Java Core Libraries Team at Google to perform a wide variety of refactorings across Google’s massive Java codebase. Our main contribution is that a large class of useful refactorings can be expressed in pure Java, without a specialized DSL, while keeping the tool easily accessible to average Java developers.
+
 ## Future Direction
 
 * QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs https://arxiv.org/pdf/1912.09686
