@@ -233,6 +233,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > Doop builds on the idea of specifying pointer analysis algorithms declaratively, using Datalog: a logic-based language for defining (recursive) relations. Doop carries the declarative approach further than past work (such as bddbddb) by describing the full end-to-end analysis in Datalog and optimizing aggressively through exposition of the representation of relations (for example indexing) to the Datalog language level.
 
+* error prone java static analysis https://github.com/google/error-prone
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
