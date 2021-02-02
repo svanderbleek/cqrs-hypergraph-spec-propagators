@@ -126,6 +126,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > https://news.ycombinator.com/item?id=22156370
 
+* poetry https://python-poetry.org/docs/versions/
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
