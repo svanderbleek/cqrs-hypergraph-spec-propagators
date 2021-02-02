@@ -337,7 +337,7 @@ Does test automation  exercise api? We can injest
 
 Data sources: Log files, network topologies
 
-Properties analyzed: versioning, dependency, security, behavior
+Properties analyzed: versioning, dependency, security, change management, cost, licensing
 
 API calls in cloud control plane, apis have audit log (custodian has subscribe and invoke policy, real-time using flight recording)
 
