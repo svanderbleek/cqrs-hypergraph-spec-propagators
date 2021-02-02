@@ -197,6 +197,8 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 * https://www.opslevel.com/
 
+> service ownership platform catalog everything have running in architecture
+
 * https://konghq.com/kong-konnect#insomnia
 
 * https://raml.org/
