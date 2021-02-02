@@ -235,6 +235,11 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * error prone java static analysis https://github.com/google/error-prone
 
+> Error Prone …
+> * hooks into your standard build, so all developers run it without thinking
+> * tells you about mistakes immediately after they’re made
+> * produces suggested fixes, allowing you to build tooling on it
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
