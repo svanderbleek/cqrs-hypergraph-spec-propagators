@@ -236,6 +236,8 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 > granmarly for your code 
 
+* great expectations https://greatexpectations.io/
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
