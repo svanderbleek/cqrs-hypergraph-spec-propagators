@@ -70,6 +70,9 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > If one is willing to use a dag (directed acyclic graph) representation for terms, then this exponential growth rate does not occur. Paterson and Wegman [1978] have given an efficient linear-time unification algorithm based on representing terms as dags.
 
+* propagators https://groups.csail.mit.edu/mac/users/gjs/propagators/
+  * https://github.com/ekmett/propagators
+
 ## Research
 
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
