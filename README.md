@@ -181,6 +181,12 @@ Pushouts in category of fact operators
 
 Nix packages represent versioned specs if we consider a fact language of only dependencies. Versions of packages differ by changing their dependencies. We can apply our reverse algorithm to generate a changelog spec from the Nix historical dataset.
 
+### Demo
+
+Given a stream of API events find the most general changelog describing it
+
+* [rundemo](demo.link)
+
 ### Criticism
 
 Spec with name is enough in the Hickey model
