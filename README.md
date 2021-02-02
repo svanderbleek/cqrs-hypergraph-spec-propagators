@@ -170,6 +170,10 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 * https://konghq.com/kong-konnect#insomnia
 
+* https://raml.org/
+
+* https://swagger.io/solutions/api-testing/
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
