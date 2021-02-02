@@ -253,3 +253,7 @@ Given a stream of API events find the most general changelog describing it
 ### Criticism
 
 Spec with name is enough in the Hickey model
+
+## Strategy
+
+full automation, inference engine, formal behavior tracking, expansion eat ops level lunch
