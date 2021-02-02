@@ -205,6 +205,17 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 * https://swagger.io/solutions/api-testing/
 
+* effx https://www.effx.com/
+
+> * How do I get my data into effx?  How does that work?
+> We provide various integrations to get your service data into effx. The primary method is via a YAML file you can drop within your Git repository. We have integrations with most Git providers to automatically lint and sync the information into effx when you push to your main (or master) branch. 
+> Within our platform, you'll find our YAML builder where you can construct your YAML files using a helpful wizard and view changes to the YAML file in real-time before you commit to your code repository.
+> For more information on our Git integrations, our effx-cli tool, and more, check out https://effx.com/help
+> * How do you track service dependencies?
+> Service dependencies can be defined in effx in two ways:
+> - Integrations: we support most popular service mesh setups to automatically ingest and display your service dependencies
+> - Via static configuration: we allow for dependencies to be defined within your YAML configuration.
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
@@ -263,3 +274,5 @@ full automation, inference engine, formal behavior tracking, expansion eat ops l
 autodiscovery of formal models within a software project, model tracking, model breaking notifications, model management features, data defined contract inference
 
 api monitoring? integrate with or compete with?
+
+inject service mesh (istio.io)
