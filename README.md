@@ -134,6 +134,16 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Towards User-Friendly Projectional Editors https://sjmulder.nl/dl/pdf/unsorted/2014%20-%20Voelter%20et%20al%20-%20Towards%20User-Friendly%20Projectional%20Editors.pdf
 
+* Inca A DSL for the Definition of Incremental Program Analyses https://www.pl.informatik.uni-mainz.de/files/2019/04/inca-incremental-analysis.pdf
+
+* Incrementalizing lattice-based program analyses in Datalog https://dl.acm.org/doi/pdf/10.1145/3276509
+
+* Query, analysis, and benchmarking techniques for evolving property graphs of software systems https://repozitorium.omikk.bme.hu/bitstream/handle/10890/13133/ertekezes.pdf?sequence=2
+
+* Formal validation and model generation for domain-specific languages by logic solvers https://uwspace.uwaterloo.ca/bitstream/handle/10012/16088/Anbarnam_Davood.pdf?sequence=3&isAllowed=y
+
+* On the Effectiveness of Incremental Fact Extraction and Analysis
+
 ## Future Direction
 
 * QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs https://arxiv.org/pdf/1912.09686
@@ -284,3 +294,9 @@ api monitoring? integrate with or compete with?
 inject service mesh (istio.io)
 
 relate to projectional editing
+
+this is a form of program analysis, abstract evaluation of a spec accumulating function through incremental analysis
+
+evolving property graphs of software systems
+
+need to enable blob optimization of analysis don't need full contents
