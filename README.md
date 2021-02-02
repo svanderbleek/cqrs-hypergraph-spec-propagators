@@ -164,6 +164,12 @@ What we propose should provide meaningful versioning and be verifiable as a form
 
 The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorithm
 
+### Formalism
+
+Pushouts in category of fact operators
+
+* Free conservative co-completion
+
 ### Dataset Examples
 
 Nix packages represent versioned specs if we consider a fact language of only dependencies. Versions of packages differ by changing their dependencies. We can apply our reverse algorithm to generate a changelog spec from the Nix historical dataset.
