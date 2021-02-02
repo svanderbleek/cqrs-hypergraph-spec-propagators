@@ -96,6 +96,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Identification of Practices and Capabilities in API Management: A Systematic Literature Review
 
+* Software Versioning with Microservices through the API Gateway Design Pattern
+
 ## Tools
 
 * a verification tool for weighted kripke graphs https://github.com/jonasfj/WKTool
