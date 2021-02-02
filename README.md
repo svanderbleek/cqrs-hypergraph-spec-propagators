@@ -246,6 +246,10 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 Diff policies ci policies
 
+* datafold 
+
+Data diff
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
