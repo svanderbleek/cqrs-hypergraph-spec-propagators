@@ -116,6 +116,18 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Automated generation of client-specific backends utilizing existing microservices and architectural knowledge
 
+* Towards better utilizing static application security testing https://www.cs.purdue.edu/homes/lintan/publications/priv-icse19.pdf
+
+* Web application development with third-party components https://tel.archives-ouvertes.fr/tel-02101381/document
+
+* Putting the semantics into semantic versioning https://arxiv.org/pdf/2008.07069
+
+* A catalogue of inter-parameter dependencies in RESTful web APIs http://personal.us.es/sergiosegura/files/papers/martinlopez19-icsoc.pdf
+
+## Future Direction
+
+* QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs https://arxiv.org/pdf/1912.09686
+
 ## Tools
 
 * a verification tool for weighted kripke graphs https://github.com/jonasfj/WKTool
