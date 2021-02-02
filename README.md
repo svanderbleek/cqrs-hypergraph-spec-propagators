@@ -232,6 +232,10 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 > - Integrations: we support most popular service mesh setups to automatically ingest and display your service dependencies
 > - Via static configuration: we allow for dependencies to be defined within your YAML configuration.
 
+* deepsource https://deepsource.io/
+
+> granmarly for your code 
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
