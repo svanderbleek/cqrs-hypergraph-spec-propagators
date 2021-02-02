@@ -187,6 +187,12 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > We discuss Refaster, a tool that uses normal, compilable before-and-after examples of Java code to specify a Java refactoring. Refaster has been used successfully by the Java Core Libraries Team at Google to perform a wide variety of refactorings across Google’s massive Java codebase. Our main contribution is that a large class of useful refactorings can be expressed in pure Java, without a specialized DSL, while keeping the tool easily accessible to average Java developers.
 
+* API Parameter Recommendation Based on Documentation Analysis https://uwspace.uwaterloo.ca/bitstream/handle/10012/15506/Xi_Yuan.pdf?sequence=3&isAllowed=y
+
+* A First Look at the Deprecation of RESTful APIs: An Empirical Study https://arxiv.org/pdf/2008.12808.pdf
+
+> —REpresentational State Transfer (REST) is considered as one standard software architectural style to build web APIs that can integrate software systems over the internet. However, while connecting systems, RESTful APIs might also break the dependent applications that rely on their services when they introduce breaking changes, e.g., an older version of the API is no longer supported. To warn developers promptly and thus prevent critical impact on downstream applications, a deprecated-removed model should be followed, and deprecationrelated information such as alternative approaches should also be listed. While API deprecation analysis as a theme is not new, most existing work focuses on non-web APIs, such as the ones provided by Java and Android. To investigate RESTful API deprecation, we propose a framework called RADA (RESTful API Deprecation Analyzer). RADA is capable of automatically identifying deprecated API elements and analyzing impacted operations from an OpenAPI specification, a machine-readable profile for describing RESTful web service. We apply RADA on 2,224 OpenAPI specifications of 1,368 RESTful APIs collected from APIs.guru, the largest directory of OpenAPI specifications. Based on the data mined by RADA, we perform an empirical study to investigate how the deprecatedremoved protocol is followed in RESTful APIs and characterize practices in RESTful API deprecation. The results of our study reveal several severe deprecation-related problems in existing RESTful APIs. Our implementation of RADA and detailed empirical results are publicly available for future intelligent tools that could automatically identify and migrate usage of deprecated RESTful API operations in client code
+
 ## Future Direction
 
 * QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs https://arxiv.org/pdf/1912.09686
@@ -348,6 +354,11 @@ What we propose should provide meaningful versioning and be verifiable as a form
 * who am I breaking?
 
 The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorithm
+
+### Key Discoveries
+
+* A First Look at the Deprecation of RESTful APIs
+*  On the Effectiveness of Incremental Fact Extraction and Analysis
 
 ### Data Driven
 
