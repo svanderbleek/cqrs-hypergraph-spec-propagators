@@ -73,6 +73,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 * propagators https://groups.csail.mit.edu/mac/users/gjs/propagators/
   * https://github.com/ekmett/propagators
 
+* bounded join semilattice https://en.m.wikipedia.org/wiki/Semilattice
+
 ## Research
 
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
