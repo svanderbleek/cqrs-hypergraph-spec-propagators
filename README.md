@@ -250,6 +250,10 @@ Diff policies ci policies
 
 Data diff
 
+* dbt https://www.getdbt.com/
+
+GitHub repo of sql
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
