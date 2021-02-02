@@ -262,6 +262,8 @@ Dependencies licenses https://crates.io/crates/cl-to-cd
 
 They get to install agents
 
+* dependabot https://dependabot.com/
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
