@@ -130,6 +130,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * cargo yank https://doc.rust-lang.org/cargo/reference/publishing.html#cargo-yank
 
+> commentary on diamond https://stephencoakley.com/2019/04/24/how-rust-solved-dependency-hell
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
