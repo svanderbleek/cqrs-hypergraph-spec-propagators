@@ -126,7 +126,9 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > https://news.ycombinator.com/item?id=22156370
 
-* poetry https://python-poetry.org/docs/versions/
+* poetry version operators https://python-poetry.org/docs/versions/
+
+* cargo yank https://doc.rust-lang.org/cargo/reference/publishing.html#cargo-yank
 
 ## Industry
 
