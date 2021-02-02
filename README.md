@@ -180,3 +180,7 @@ Pushouts in category of fact operators
 ### Dataset Examples
 
 Nix packages represent versioned specs if we consider a fact language of only dependencies. Versions of packages differ by changing their dependencies. We can apply our reverse algorithm to generate a changelog spec from the Nix historical dataset.
+
+### Criticism
+
+Spec with name is enough in the Hickey model
