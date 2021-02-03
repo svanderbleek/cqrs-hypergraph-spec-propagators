@@ -93,6 +93,12 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* The Dynamics of Software Composition Analysis
+
+> Software Composition Analysis (SCA). SCA products are concerned with three tasks: discovering dependencies, checking the reachability of vulnerable code for false positive elimination, and automated remediation. The latter two tasks rely on call graphs of application and library code to check whether vulnerabilityspecific sinks identified in libraries are used by applications. However, statically-constructed call graphs introduce both false positives and false negatives on real-world projects. In this paper, we develop a novel, modular means of combining call graphs derived from both static and dynamic analysis to improve the performance of false positive elimination
+
+* Analysing Socio-technical Congruence in the Package Dependency Network of Cargo
+
 *  Efficient static checking of library updates https://asankhaya.github.io/pdf/Efficient-Static-Checking-of-Library-Updates.pdf
 
 > To address this problem, we present a static analysis for automatically and efficiently checking if a library upgrade introduces an API incompatibility. Our analysis does not rely on reported version information from library developers, and instead computes the actual differences between methods in libraries across different versions. The analysis is scalable, enabling real-time diff queries involving arbitrary pairs of library versions.
