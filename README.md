@@ -300,6 +300,14 @@ new node can be added within an array or as a new property of an object.
 
 > Applications based on micro-services or web services have had a significant growth due to the exponential increase in the use of mobile devices whose applications rely almost entirely on this type of interfaces. However, using an external interface comes with no guarantees to the developers using it. Changes may be introduced at any moment, which can break the software that is using those APIs. It is necessary to give the consumers guarantees that their software will not break, but not at the expense of stagnating the development of said web service. In this document we present a programming model to evolve web services in a sustainable way and to automate most of the maintainability that might be required by the consumer. This model works by allowing multiple versions to be deployed, and then using a relation containing metadata to type check versions. By doing this, it is possible to guarantee type safety between all the versions to provide a sustainable way to evolve the service. A prototype framework was implemented in JavaScript, where it is possible to visualize the model working in an environment similar to what it is used in the industry nowadays.
 
+> RIDDL is an XML-based language used to incrementally compose REST APIs documentation by adding a changelog of the older version
+
+* On the Origin of Services Using RIDDL for Description, Evolution and Composition of RESTful Services
+
+> In this paper we want to introduce RIDDL, a flexible and extensible XML based language that not only allows to describe services but also covers the basic requirements of service composition and evolution to provide a clean foundation for further developments.
+
+> This leads us to two important issues: service evolution and service composition. According to Kaminski et al. [3] the ultimate goal of service evolution is to permit change in the interface and implementation of a service while remaining backwards-compatible with clients written to comply with previous versions. Service composition is currently defined as the assembly of several services in a complex process [4], [5]. On the other hand a service itself may be a simple composition of several operations, maintained by different entities, operating on different datasets but exposed through a single interface. A RESTful service not just consists of a flat list of operations but of a tree of operations, therefore a simple composition can be a combination of multiple (possibly overlapping) resources.
+
 * Automated Example Oriented REST API Documentation at Cisco
 
 > In this research, we presented the results of using SpyREST at Cisco to maintain an up-to-date documentation with usage examples for an evolving REST API. Our primary findings provide an evidence that SpyREST can be used as a practical REST API documentation tool.
@@ -523,6 +531,8 @@ Given a stream of API events find the most general changelog describing it
 Spec with name is enough in the Hickey model
 
 ## Strategy
+
+json and rest are solved problems for ingestion and diffing
 
 full automation, inference engine, formal behavior tracking, expansion eat ops level lunch
 
