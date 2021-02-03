@@ -93,7 +93,19 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+*  Efficient static checking of library updates
+
+* A4: Automatically Assisting Android API Migrations Using Code Examples
+
+> In this paper, we propose an approach that automatically learns API migration patterns from code examples and applies these patterns to the source code of Android apps for API migration. 
+
 * Declaration patterns in dependency management
+
+> Several tools are available that assist with automating the process of updating declarations as needed. Greenkeeper16, Dependabot17, and Dependencies.io18 are some of the services that sit within a continuous integration service or as a git repository plugin, sending pull requests to update declarations whenever dependency updates occur. This allows developers to test the branch containing the dependency update (some services build the project and run its regression tests automatically to further automate the process), and merge it if there are no issues. Automating this process gives instant feedback to developers when dependency updates have occurred, meaning that developers can at least know that the dependency update exists and decide if they want to update immediately or delay the update. Another tool, Snyk19, works in a similar way to alert developers of security vulnerabilities in their dependencies. For both types of tools, the emphasis is on providing a quick transfer of information, solving the issue that researchers have pointed out about developers often being unaware of updates or vulnerabilities.
+
+> There are a number of tools that can detect breaking API changes, including clirr20 (widely used in research but not updated since 2005) and Revapi21 for Java, or NDepend22 for .NET. In Section 3.3.3, PDE API Tools23 was also discussed as a tool used by the Eclipse community which does a similar job. These are helpful for detecting API changes, and pinpoint where developers must look closely at the dependency updates, and in some cases can be plugged into tools such as Maven, Visual Studio or cloud-based platform tools. This integration with the automated build cycle is desirable - making the build process as automated as possible [Humble and Farley, 2010], and is considered best practice within DevOps. Jezek and Dietrich benchmarked nine API compatibility tools against a suite of API breaking changes, finding that there are now some highly usable and accurate tools available [Jezek and Dietrich, 2017]. For all API compatibility tools, it should be noted that they only focus on API changes, and ignore that semantic changes within projects can also be breaking, so they only cover one aspect of compatibility.
+
+> Foo et al. report on an API incompatibility checker that uses static analysis [Foo et al., 2018]. A statically constructed callgraph is used to detect deep changes that can effect compatibility. The tool works for the Maven, PyPi, and RubyGems ecosystems, and the authors report that based on the experiments with the tools, 26% of library versions are in violation of semantic versioning. The authors caution that this analysis suffers from the imprecision of the static analysis being used (VTA) though, with a large amount of false positives being associated with this method.
 
 * Will Dependency Conflicts Affect My Program’s Semantics? https://arxiv.org/pdf/2006.07633.pdf
 
@@ -616,6 +628,8 @@ code base based on a selection of desired configuration options.
 * revapi https://revapi.org/revapi-site/index.html
 
 > Full featured API checker for Java and beyond.
+
+* static analysis tools repo https://github.com/analysis-tools-dev/static-analysis
 
 ## Industry
 
