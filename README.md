@@ -95,6 +95,52 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* Combining model checking and data-flow analysis
+
+* JaVerT: JavaScript verification toolchain
+
+* JaVerT 2.0: Compositional symbolic execution for JavaScript
+
+* IDEal: efficient and precise alias-aware dataflow analysis.
+
+* From Start-ups to Scale-ups: Opportunities and Open Problems for Static and Dynamic Program Analysis
+
+* Go with the flow: compositional abstractions for concurrent data structures
+
+* Armada: low-effort verification of high-performance concurrent programs
+
+* Deploying Search Based Software Engineering with Sapienz at Facebook
+
+* Machine learning testing: Survey, landscapes and horizons
+
+* Continuous reasoning: Scaling the impact of formal methods
+
+* An Interface Theory Based Approach to Verification of Web Services 
+
+* Towards Formal Interfaces for Web Services with Transactions
+
+> Let M be a finite set of Web methods, O be a finite set of outcomes, and dom(f)denote the domain of the function f.
+
+* Interface Theory based Formalization and Verification of Orchestration in BPEL4WS
+
+* Gillian: Compositional Symbolic Execution for All
+
+* CrySL: An Extensible Approach to Validating the Correct Usage of Cryptographic APIs
+
+* Continuous Reasoning for Real-World Program Analysis Tools
+
+* An Interface Theory for Program Verification https://link.springer.com/chapter/10.1007/978-3-030-61362-4_9
+
+> We start with the interface   𝐼𝑃  of the program itself, which represents all traces of program executions. To prove correctness, we try to construct a more abstract interface   𝐼𝐶  of the program (overapproximation) that satisfies the specification. This interface, if found, represents more traces than   𝐼𝑃  that are all correct (satisfying the specification). Ultimately, we want a compact representation of the program behavior as a correctness interface   𝐼𝐶  in terms of inductive invariants. We can then extract a correctness witness, in standard exchange format, out of such a correctness interface. Symmetrically, to prove violation, we try to construct a more concrete interface   𝐼𝑉  of the program (underapproximation) that violates the specification. This interface, if found, represents fewer traces than   𝐼𝑃  that are all feasible (can be executed). Ultimately, we want a compact representation of the program behavior as a violation interface   𝐼𝑉  in terms of a violating program trace. We can then extract a violation witness, in standard exchange format, out of such a violation interface. This viewpoint exposes the duality of these two tasks — proving correctness and violation. It enables the decomposition of the verification process, and its tools, into (at least!) three components: interface synthesizers, refinement checkers, and specification checkers
+
+* An Under-Approximate Relational Logic Heralding Logics of Insecurity, Incorrect Implementation & More
+
+* Incorrectness Logic
+
+* Compositional Shape Analysis by means of Bi-Abduction
+
+> This paper describes a compositional shape analysis, where each procedure is analyzed independently of its callers. The analysis uses an abstract domain based on a restricted fragment of separation logic, and assigns a collection of Hoare triples to each procedure; the triples provide an over-approximation of data structure usage. Compositionality brings its usual benefits – increased potential to scale, ability to deal with unknown calling contexts, graceful way to deal with imprecision – to shape analysis, for the first time. The analysis rests on a generalized form of abduction (inference of explanatory hypotheses) which we call bi-abduction. Biabduction displays abduction as a kind of inverse to the frame problem: it jointly infers anti-frames (missing portions of state) and frames (portions of state not touched by an operation), and is the basis of a new interprocedural analysis algorithm
+
 * V2: Fast Detection of Configuration Drift in Python
 
 * The Dynamics of Software Composition Analysis
