@@ -204,6 +204,16 @@ new node can be added within an array or as a new property of an object.
 
 > We have shown here a novel approach for the problem of extracting records from semi-structured web pages based on a new insight: seeing the structure of the document as a cyclic signal
 
+* End-to-End Versioning Support for Web Services https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.139.5552&rep=rep1&type=pdf
+
+> Software services are, just like any other software system, subject to permanent change. We argue that these changes should generally be transparent to service consumers. However, currently consumers are often tied to a given version of a service and have no means of easily upgrading to a newer version. In this paper we propose a WSDL-driven classification of Web service change types and discuss a versioning mechanism for service-oriented systems that considers revision management on registry- and client-side. We use the concepts of service version graphs and selection strategies to provide transparent end-to-end versioning support, and show how this approach is implemented in our service-oriented computing runtime VRESCo. Furthermore, we illustrate the advantages of our approach in comparison to the current state of the art using a realistic case study
+
+*  Interoperability Among Independently Evolving Web Services
+
+> Interoperability with substituted services is non-trivial, however, and four types of incompatibilities may arise during such interoperation – structural, value, encoding and semantic. We address these incompatibilities three-fold: (1) static and dynamic analysis tools to infer whether an application is compatible with a substituted service, (2) semiautomatically generated middleware components called cross-stubs that actually resolve incompatibilities and enable interoperation with substituted services, and (3) a lightweight mechanism called multi-option types to enable applications to be written from the ground up in an interoperation-friendly manner.
+
+> A classification scheme for differences between Web services has been proposed by Ponnekanti et al. [13]. They specify four types of incompatibilities: structural, value, encoding, and semantics. 
+
 * Putting the semantics into semantic versioning https://arxiv.org/pdf/2008.07069
 
 * A catalogue of inter-parameter dependencies in RESTful web APIs http://personal.us.es/sergiosegura/files/papers/martinlopez19-icsoc.pdf
@@ -497,6 +507,8 @@ The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorith
 ### Key Papers
 
 * Web application development with third-party components
+* End-to-End Versioning Support for Web Services 
+* Interoperability Among Independently Evolving Web Services
 * A First Look at the Deprecation of RESTful APIs
 * On the Effectiveness of Incremental Fact Extraction and Analysis
 * Graph data management of evolving dependency graphs for multi-versioned codebases
