@@ -75,6 +75,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * bounded join semilattice https://en.m.wikipedia.org/wiki/Semilattice
 
+* property graph https://en.wikipedia.org/wiki/Graph_database#Labeled-property_graph
+
 ## Research
 
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
@@ -182,6 +184,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 > * 3.5 Implementing the IEAP . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
 
 * Graph data management of evolving dependency graphs for multi-versioned codebases
+
+> In this work we focus on the challenges associated with the management of multiple source code revisions, and investigate strategies to enable advanced code comprehension when the underlying codebase evolves over time. To find the deltas, we detail how entities can be resolved across versions, and propose a model for representing evolving dependency graphs.
+
+> We show growth and storage benefits of versioned graphs compared to independently storing individual snapshots. We also demonstrate how existing Frappe queries can be executed on ´ versioned graphs and new queries can retrieve a history of changes in a function for a code review use case.
 
 * Lifting Datalog-Based Analyses to Software Product Lines https://arxiv.org/pdf/1907.02192.pdf
 
@@ -390,7 +396,8 @@ The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorith
 ### Key Discoveries
 
 * A First Look at the Deprecation of RESTful APIs
-*  On the Effectiveness of Incremental Fact Extraction and Analysis
+* On the Effectiveness of Incremental Fact Extraction and Analysis
+* Graph data management of evolving dependency graphs for multi-versioned codebases
 
 ### Data Driven
 
