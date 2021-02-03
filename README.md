@@ -158,6 +158,8 @@ in Z
 
 * On the lattice of specifications: Applications to a specification methodology
 
+> In this paper we investigate the lattice properties of the natural ordering between specifications, which expresses that a specification expresses a strongerrequirement than another specification. The lattice-like structure that we uncover is used as a basis for a specification methodology.
+
 * Resource and Dependency based Test Case Generation for RESTful Web Services https://github.com/EMResearch/EvoMaster/blob/master/docs/publications/2021_emse.pdf
 
 > In this paper, we propose an enhanced search-based method for automated system test generation for RESTful web services, by exploiting domain knowledge on the handling of HTTP resources. The proposed techniques use domain knowledge specific to RESTful web services and a set of effective templates to structure test actions (i.e., ordered sequences of HTTP calls) within an individual in the evolutionary search. The action templates are developed based on the semantics of HTTP methods and are used to manipulate the web services’ resources. In addition, we propose five novel sampling strategies with four sampling methods (i.e., resource-based sampling) for the test cases that can use one or more of these templates. The strategies are further supported with a set of new, specialized mutation operators (i.e., resource-based mutation) in the evolutionary search that take into account the use of these resources in the generated test cases. Moreover, we propose a novel dependency handling to detect possible dependencies among the resources in the tested applications. The resource-based sampling and mutations are then enhanced by exploiting the information of these detected dependencies. 
