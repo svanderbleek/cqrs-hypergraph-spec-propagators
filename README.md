@@ -81,6 +81,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * notation3 https://en.wikipedia.org/wiki/Notation3
 
+* software product lines https://en.wikipedia.org/wiki/Software_product_line#:~:text=Software%20product%20lines%20(SPLs)%2C,a%20common%20means%20of%20production.
+
 ## Research
 
 * A Linked Open Data Approach for Web Service Evolution
