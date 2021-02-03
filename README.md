@@ -165,16 +165,30 @@ to make the main information machine-readable in the HTML. They add the pre-defi
 
 > D2Spec. Yang et al. [Yang et al., 2018; Dolby et al., 2018] provide D2Spec that extract web API specification from online documentation, which is quite similar to our work.
 
-> * 2.2.3 Crowd-sourcing approach . . . . . . . . . . . . . . . . . . . . . . . . . 22
 > * 4.3 ExtrateREST: an automated extractor for the generation of REST API specification
 > * 4.3.1 Global architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
 > * 4.3.2 Step 1: gather relevant HTML documentation pages . . . . . . . . . 53
 > * 4.3.3 Step 2: extract information from relevant pages . . . . . . . . . . . . 55
 
 > * How to adapt to the data changes of REST services?
-> * 2.3.1 Pull mode and Push mode . . . . . . . . . . . . . . . . . . . . . . . . . 24
-> * 2.3.2 Transformation platforms . . . . . . . . . . . . . . . . . . . . . . . . . 25
+
 > * 2.3.3 JSON document and JSON patch . . . . . . . . . . . . . . . . . . . . . 28
+
+> JSON Patch. The JSON Patch RFC is an ongoing standard that specifies how to encode a patch that can be performed on a JSON document to transform it into a new one[Bryan and Nottingham, 2013]. The RFC specifies that a patch is a sequence of change operations. It then specifies the five following change operations (a sixth operation is defined to perform tests):
+
+> — Add: this operation is performed to add a new node into the JSON document. The
+new node can be added within an array or as a new property of an object.
+
+> — Remove: this operation is performed to remove an existing node of the JSON document.
+
+> — Replace: this operation is performed to replace an existing node by another one.
+
+> — Move: this operation is performed to move an existing node elsewhere in the JSON document.
+
+> — Copy: this operation is performed to copy an existing node elsewhere in the JSON document.
+
+> The RFC specifies a standard way to encode a patch into a JSON document. More precisely a patch is an array of change operations where each change operation is encoded by a single object with properties specifying the kind of operation, the source and target nodes, and the new value if needed.
+
 > * 2.3.4 JSON Patch Algorithms .
 > * 5.2 JDR: a JSON patch algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
 > * 5.3 Efficiency evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75
