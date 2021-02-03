@@ -93,6 +93,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* Specification of Generic APIs, or: Why Algebraic May Be Better Than Pre/Post
+
+>  Unlike pre/post-based specification, which deals with the inputs and outputs of one operation at a time, algebraic specification deals with the relationships between the different operations in an API, which is needed in the specification of generic APIs.
+
 * An Exploratory Study on Faults in Web API Integration in a Large-Scale Payment Company http://pure.tudelft.nl/ws/files/42667586/mainwfonts.pdf
 
 > 1) faults in API integration can be grouped into 11 general causes: invalid user input, missing user input, expired request data, invalid request data, missing request data, insuicient permissions, double processing, coniguration, missing server data, internal and third party, 2) most faults can be attributed to the invalid or missing request data, and most API consumers seem to be impacted by faults caused by invalid request data and third party integration; and 3) insuicient guidance on certain aspects of the integration and on how to recover from errors is an important challenge to developers.
