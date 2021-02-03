@@ -106,6 +106,8 @@ the set of provided (resp. required) services of Cnew;
 > • case 4: the two sets are different from each other and can have some services
 in common.
 
+> We have defined the strict and the contextual substitutability and we have concentrated only on contextual one. We have presented an analysis of different substitutability cases and summarized them into three key conditions. These conditions involve checking the installability rule of the new component (verifying requirement and ensuring that provided services will not conflict with the context of the system) and checking the effect of deinstallation of the old component using the dependency graph. A prototype implementing our proposal has been developed in Ocaml. Our objective is to ensure the safety of substitutability without being restrictive by authorizing all cases of substitutability. For example, replacing a component which has a lot of unused services with another which has fewer provided services (only those which are useful) is possible. This substitutability can also depends on a system policy or property models as described in [3]. We focus on ensuring the safety of the system, i.e., verifying the requirements, the effect of the substitution and preserving context invariants, component and service properties.
+
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
 
 > Dependency graphs, as introduced more than 20 years ago by Liu and Smolka, are oriented graphs with hyperedges that connect nodes with sets of target nodes in order to represent causal dependencies in the graph. Numerous verification problems can be reduced into the problem of computing a minimum or maximum fixed-point assignment on dependency graphs
