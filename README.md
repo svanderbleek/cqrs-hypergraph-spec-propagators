@@ -95,6 +95,12 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* OAS DB: A Repository of Specifications to Support OpenAPI Research
+
+* RESTest: Black-Box Constraint-Based Testing of RESTful Web APIs
+
+> In this paper, we present RESTest, a framework for automated black-box testing of RESTful APIs. Among its key features, RESTest supports the specification and automated analysis of interparameter dependencies, enabling the use of constraint solvers for the automated generation of valid test cases.
+
 * Checking Security Properties of Cloud Service REST APIs
 
 > We define a REST API as a finite set of requests. Each request r is a tuple of the form ha, t, p, bi where
@@ -105,6 +111,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 > • b is the request body.
 
 > A request type t is any of the following five REST-allowed values: PUT (create or update), POST (create or update), GET (read, list or query), DELETE (delete), PATCH (update). The resource path p is a string identifying a cloud resource and its parent hierarchy. Typically, p is a (non-empty) sequence matching the regular expression (/hresourceTypei/hresourceNamei/)+ where resourceType denotes the type of a cloud resource and resourceName is the specific name of the resource of that type. 
+
+> Active property checking versus passive monitoring. As discussed earlier, the checkers we define extend the search space explored by the main driver with additional test cases aimed at triggering and detecting specific rule violations. In contrast, passive runtime monitoring of these rules in conjunction with the main driver, i.e., without executing those new tests, would likely be unable to detect rule violations.
 
 * Capturing and Enhancing In Situ System Observability for Failure Detection
 
@@ -646,6 +654,8 @@ code base based on a selection of desired configuration options.
 
 * CrashTuner: detecting crash-recovery bugs in cloud systems via meta-info analysis
 
+* Automatic Property-based Testing of GraphQL APIs
+
 ## Tools
 
 * a verification tool for weighted kripke graphs https://github.com/jonasfj/WKTool
@@ -735,6 +745,10 @@ code base based on a selection of desired configuration options.
 * restler https://github.com/microsoft/restler-fuzzer
 
 > RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.
+
+* https://github.com/isa-group/RESTest
+
+> RESTest is a framework for automated black-box testing of RESTful web APIs. It follows a model-based approach, where test cases are automatically derived from the OpenAPI Specification (OAS) of the API under test
 
 ## Industry
 
