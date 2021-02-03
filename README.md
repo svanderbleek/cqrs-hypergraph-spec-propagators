@@ -578,3 +578,4 @@ Injesting logs would involve difficult automation as shown in Towards Extracting
 * dependency alert propagation 
 * support information flow from consumer and producer side
 * sessions? api tokens?
+* rails nested parameters
