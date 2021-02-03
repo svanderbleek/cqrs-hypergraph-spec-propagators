@@ -950,20 +950,20 @@ The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorith
 
 ### Key Papers
 
-* On the lattice of specifications: Applications to a specification methodology
+* RESTest: Black-Box Constraint-Based Testing of RESTful Web APIs
+* Resource and Dependency based Test Case Generation for RESTful Web Services
+* On the Effectiveness of Incremental Fact Extraction and Analysis
 * Web application development with third-party components
 * End-to-End Versioning Support for Web Services 
 * Interoperability Among Independently Evolving Web Services
 * A First Look at the Deprecation of RESTful APIs
-* On the Effectiveness of Incremental Fact Extraction and Analysis
 * Graph data management of evolving dependency graphs for multi-versioned codebases
 * Towards Extracting Web API Specifications from Documentation
-* A Categorical Theory of Patches
-* Type Regression Testing to Detect Breaking Changes in Node.js Libraries
 * Putting the Semantics into Semantic Versioning
-* Resource and Dependency based Test Case Generation for RESTful Web Services
 * ARIANE: Automated Re-Documentation to Improve software Architecture uNderstanding and Evolution
 * A Principled Approach to Version Control
+* A Categorical Theory of Patches
+* On the lattice of specifications: Applications to a specification methodology
 
 ### Data Driven
 
