@@ -93,6 +93,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* V2: Fast Detection of Configuration Drift in Python
+
 * The Dynamics of Software Composition Analysis
 
 > Software Composition Analysis (SCA). SCA products are concerned with three tasks: discovering dependencies, checking the reachability of vulnerable code for false positive elimination, and automated remediation. The latter two tasks rely on call graphs of application and library code to check whether vulnerabilityspecific sinks identified in libraries are used by applications. However, statically-constructed call graphs introduce both false positives and false negatives on real-world projects. In this paper, we develop a novel, modular means of combining call graphs derived from both static and dynamic analysis to improve the performance of false positive elimination
