@@ -159,6 +159,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 > * 2.2.1 Tuple-Attribute Format . . . . . . . . . . . . . . . . . . . . . . . . 9
 > * 2.2.2 Datalog . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
 > * 2.3 Source Code Models as Property Graphs . . . . . . . . . . . . . . . . . . . 11
+
+> Source Code Models as Property Graphs
+> The practice of extracting a queryable model from source code artifacts is not new. Recent work in generating such models, however, are increasingly using the property graph model [39], using a tool such as Neo4j. Yamaguchi et al. used the property graph model to discover vulnerabilities in the Linux kernel [48]. To do so, they first modelled the code’s Abstract Syntax Tree, Control Flow Graph and Dependency Graph as property graphs, merging the separate representations into one code property graph. They then used graph traversal algorithms to find paths that matched specific vulnerability patterns using Apache Gremlin, detecting 18 new vulnerabilities. Goonetilleke et al. developed a code comprehension tool, Frappe, on top of Neo4j that maintained a versioned dependency graph of a system’s codebase, the main goal of the project being to aid developers in the code review process [21]. This versioned graph would allow developers to ask questions that could come up during code review, like which version saw the introduction of a new function or which version saw the addition of a new dependency, using graph traversal queries written in the Cypher query language [18]. Focusing on more niche systems, Pra ̈hofer et al. [37] used Static Analysis techniqu
+
 > * 2.4 Fact Extraction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
 > * 2.5 Incremental Model Extraction . . . . . . . . . . . . . . . . . . . . . . . . . 13
 > * 2.6 Incremental Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
