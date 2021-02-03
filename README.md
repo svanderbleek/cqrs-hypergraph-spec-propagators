@@ -392,7 +392,6 @@ They get to install agents
 
 SpyREST generates automated, customizable, version aware, and scenario based documentation for your REST API from real API calls
 
-* What's the Best Way to write an api spec HN https://news.ycombinator.com/item?id=8912897
 
 ## Oddshots
 
