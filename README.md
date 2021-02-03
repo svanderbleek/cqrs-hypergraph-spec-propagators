@@ -294,6 +294,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * dependabot https://dependabot.com/
 
+* swagger dsl https://github.com/intellinote/swagger-dsl
+
+> A CoffeeScript-based domain-specific language for generating JSON documents for Swagger.
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
