@@ -591,3 +591,4 @@ Injesting logs would involve difficult automation as shown in Towards Extracting
 * support information flow from consumer and producer side
 * sessions? api tokens?
 * rails nested parameters
+* meaning of error examples 404 500 
