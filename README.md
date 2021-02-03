@@ -93,11 +93,15 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
-*  Efficient static checking of library updates
+*  Efficient static checking of library updates https://asankhaya.github.io/pdf/Efficient-Static-Checking-of-Library-Updates.pdf
+
+> To address this problem, we present a static analysis for automatically and efficiently checking if a library upgrade introduces an API incompatibility. Our analysis does not rely on reported version information from library developers, and instead computes the actual differences between methods in libraries across different versions. The analysis is scalable, enabling real-time diff queries involving arbitrary pairs of library versions.
 
 * A4: Automatically Assisting Android API Migrations Using Code Examples
 
 > In this paper, we propose an approach that automatically learns API migration patterns from code examples and applies these patterns to the source code of Android apps for API migration. 
+
+* Exploring the Use of Automated API Migrating Techniques in Practice: An Experience Report on Android
 
 * Declaration patterns in dependency management
 
