@@ -292,6 +292,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 > * tells you about mistakes immediately after they’re made
 > * produces suggested fixes, allowing you to build tooling on it
 
+* dependabot https://dependabot.com/
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
@@ -371,7 +373,11 @@ Dependencies licenses https://crates.io/crates/cl-to-cd
 
 They get to install agents
 
-* dependabot https://dependabot.com/
+* Spyrest http://www.spyrest.com/?from=@
+
+SpyREST generates automated, customizable, version aware, and scenario based documentation for your REST API from real API calls
+
+* What's the Best Way to write an api spec HN https://news.ycombinator.com/item?id=8912897
 
 ## Oddshots
 
