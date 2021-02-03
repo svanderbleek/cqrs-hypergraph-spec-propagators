@@ -83,6 +83,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * software product lines https://en.wikipedia.org/wiki/Software_product_line#:~:text=Software%20product%20lines%20(SPLs)%2C,a%20common%20means%20of%20production.
 
+* feature oriented domain analysis https://en.wikipedia.org/wiki/Feature-oriented_domain_analysis
+
 ## Research
 
 * A Linked Open Data Approach for Web Service Evolution
@@ -433,6 +435,10 @@ code base based on a selection of desired configuration options.
 
 > We presented a classification of VarCS, which aim to integrate the management of revisions of software artifacts and the handling of software variants at different levels of granularity. Our study provides a classification of six VarCS and shows that they use concepts and approaches developed in the areas of both software configuration management and software product line engineering
 
+* Principles of Feature Modeling
+
+> Unfortunately, feature models are difficult to build and evolve. Features need to be identified, grouped, organized in a hierarchy, and mapped to software assets. Also, dependencies between features need to be declared. While feature models have been the subject of three decades of research, resulting in many feature-modeling notations together with automated analysis and configuration techniques, a generic set of principles for engineering feature models is still missing. It is not even clear whether feature models could be engineered using recurrent principles. Our work shows that such principles in fact exist. 
+
 ## Future Direction
 
 * QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs https://arxiv.org/pdf/1912.09686
@@ -506,6 +512,11 @@ code base based on a selection of desired configuration options.
 > Dredd is a language-agnostic command-line tool for validating API description document against backend implementation of the API.
 
 > Dredd reads your API description and step by step validates whether your API implementation replies with responses as they are described in the documentation.
+
+* tcases https://github.com/Cornutum/tcases
+
+> A model-based test case generator
+
 
 ## Industry
 
