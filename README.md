@@ -298,6 +298,17 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > A CoffeeScript-based domain-specific language for generating JSON documents for Swagger.
 
+* blueprint https://apiblueprint.org/
+  * https://github.com/apiaryio/curl-trace-parser
+
+> A ... high-level API description language for web APIs.
+
+* dredd https://github.com/apiaryio/dredd
+
+> Dredd is a language-agnostic command-line tool for validating API description document against backend implementation of the API.
+
+> Dredd reads your API description and step by step validates whether your API implementation replies with responses as they are described in the documentation.
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
