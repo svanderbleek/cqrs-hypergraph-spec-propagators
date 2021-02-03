@@ -95,6 +95,17 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* Checking Security Properties of Cloud Service REST APIs
+
+> We define a REST API as a finite set of requests. Each request r is a tuple of the form ha, t, p, bi where
+
+> • a is an authentication token,
+> • t is the request type,
+> • p is a resource path, and
+> • b is the request body.
+
+> A request type t is any of the following five REST-allowed values: PUT (create or update), POST (create or update), GET (read, list or query), DELETE (delete), PATCH (update). The resource path p is a string identifying a cloud resource and its parent hierarchy. Typically, p is a (non-empty) sequence matching the regular expression (/hresourceTypei/hresourceNamei/)+ where resourceType denotes the type of a cloud resource and resourceName is the specific name of the resource of that type. 
+
 * Capturing and Enhancing In Situ System Observability for Failure Detection
 
 * Combining model checking and data-flow analysis
