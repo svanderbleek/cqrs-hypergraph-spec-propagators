@@ -398,6 +398,17 @@ new node can be added within an array or as a new property of an object.
 * The Choice Calculus: A Representation for Software Variation http://web.engr.oregonstate.edu/~erwig/papers/ChoiceCalculus_TOSEM11.pdf
  
  > Many areas of computer science are concerned with some form of variation in software—from managing changes to software over time, to supporting families of related artifacts. We present the choice calculus, a fundamental representation for software variation that can serve as a common language of discourse for variation research, filling a role similar to the lambda calculus in programming language research. We also develop an associated theory of software variation, including sound transformations of variation artifacts, the definition of strategic normal forms, anda design theory for variation structures, which will support the development of better algorithms and tools.
+ 
+ > The goal of our representation is to provide a formal model to represent variationin all kinds of languages and documents. To this end, we employ a simple tree model to represent the underlying artifact. This allows us to focus on the variational aspects of the representation, while providing a general and structured model to build on.
+ 
+ > The fundamental concept of our representation is that of choice. A choice is a set of alternative expressions from which one can be selected. This selection can be facilitated by associating tags with each alternative expression in the choice; one then selects a tag to replace a choice with the corresponding alternative. There are (at least4 ) two ways to implement this association of alternatives and tags.
+
+> (1) A choice is represented as a mapping from tags to alternative expressions. We call this the direct tagging approach.
+> (2) The introduction of tags and their association with expressions are separated. Since the separate introduction of the tags amounts to the definition of a dimension of variation, we call this the dimension approach.
+
+> For the choice calculus we have adopted the second, dimensioned approach because it provides a more structured representation, is more modular, and obeys a richer set of laws.
+
+> There are two different ways of relating the choice calculus to the feature model view of variation management. The first is to consider the choice calculus primarily as a means of implementing feature models. This could be augmented by traditional feature modeling techniques or a higher-level “choice-model” that enforces additional, inter-dimensional constraints on selections applied to a choice expression. For example, one could specify that the selection of a tag in one dimension implies the selection of a tag in another, or that two particular tags in two differentdimensions cannot both be selected. The choice calculus compares favorably as an implementation strategy. Its use of an underlying tree model and local dimension declarations make it more structured than most annotation systems, but it is able to capture significantly finer-grained variation than FOP systems
 
 * On the Origin of Services Using RIDDL for Description, Evolution and Composition of RESTful Services
 
@@ -408,6 +419,17 @@ new node can be added within an array or as a new property of an object.
 * Automated Example Oriented REST API Documentation at Cisco
 
 > In this research, we presented the results of using SpyREST at Cisco to maintain an up-to-date documentation with usage examples for an evolving REST API. Our primary findings provide an evidence that SpyREST can be used as a practical REST API documentation tool.
+
+* Scalable Analysis of Variable Software https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.308.2100&rep=rep1&type=pdf
+
+> The advent of variability management and generator technology enables users to derive individual variants from a variable
+code base based on a selection of desired configuration options. 
+
+> Variability-aware analysis (also known as family-basedanalysis [43]) takes advantage of the similarities between the variants of a system in order to speed up the analysis process. Although individual variability-aware analyses differ in many details [43], an idea that underlies all of them is to analyze code that is shared by multiple variants only once. To this end, variability-aware analyses do not operate on generated variants, but on the raw code artifacts that still contain variability and available configuration knowledge, prior to the variant-generation step
+
+* Concepts of Variation Control Systems http://www.cse.chalmers.se/~bergert/paper/2020-jss-varcs.pdf
+
+> We presented a classification of VarCS, which aim to integrate the management of revisions of software artifacts and the handling of software variants at different levels of granularity. Our study provides a classification of six VarCS and shows that they use concepts and approaches developed in the areas of both software configuration management and software product line engineering
 
 ## Future Direction
 
