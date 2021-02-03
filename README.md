@@ -87,6 +87,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * https://en.m.wikipedia.org/wiki/Tracing_(software)
 
+* abstract interpretation https://en.m.wikipedia.org/wiki/Abstract_interpretation
+
 ## Research
 
 * A Linked Open Data Approach for Web Service Evolution
