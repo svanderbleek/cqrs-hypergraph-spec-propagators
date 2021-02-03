@@ -140,15 +140,31 @@ title is a joke, research dumping ground for formal models of api dependencies
 * Web application development with third-party components https://tel.archives-ouvertes.fr/tel-02101381/document
 
 > * How to get the standard specifications of REST services?
+
 > REST API specification. A REST API specification rigorously defines how to access the resources provided by a REST service. Several papers have focused on providing the standards of machine-readable specifications.
+
 > — WADL: Web Application Description Language (WADL) is the de jure standard submitted by W3C in 2009 [Hadley, 2009]. WADL uses XML description to model the REST resources and their links. The XML format is machine-readable, but not human-readable. Due to its complexity, WADL doesn’t gain the interest of API
 providers
+
 > — hRESTS: HTML for RESTful Services (hRESTS) is a microformat for web developers
 to make the main information machine-readable in the HTML. They add the pre-defined REST services annotations (e.g., HTTP methods, address, output) into the HTML documentation according to hRESTS format. Hence, they transform the human-readable HTML into a machine-readable one.
+
 > — RESTdesc: RESTdesc is a semantic web service description [Verborgh et al., 2013] that based on semantic web language Resource Description Framework (RDF) [Klyne and Carroll, 2004]. It is a rule-based format that defines the preconditions, postconditions and request details of the interaction with the REST service. RESTdesc is a simple and lightweight description while still expresses the semantic of REST services.
+
 > — WIfL: Web Interface Language (WIfL) defines a set of RDFa annotations that can be injected into the HTML [Danielsen and Jeffrey, 2013]. WIfL provides an interactive console that enables the developers to send the requests and analyze the sample responses directly in the HTML documentation. Moreover, they provide a WIfL tool that can validate the consistency of the REST APIs.
+
 > As a summary, even though a set of specification standards has been proposed by researchers, none of them has been widely adopted by REST service providers. The industry practitioners have also proposed several descriptions, such as RAML 8,  API Blueprint 9, and OpenAPI. These API descriptions have a lot in common while OpenAPI seems to be the winner 
+
 > * 2.2.2 Automated or semi-automated approaches . . . . . . . . . . . . . . 18
+
+> SpyREST. Sohan et al. [Sohan et al., 2017, 2015] provide SpyREST, an approach for generating and maintaining up-to-date documentation by using an HTTP proxy server
+
+> APIDiscoverer. Ed-douibi et al. [Ed-douibi et al., 2017] provide APIDiscoverer, an example-driven approach for generating REST API specification by using the API call (requests and responses) examples. As shown in Figure 2.5, developers need to fulfill the API calls information and send them to the REST services. It then analyzes requests and responses to generate the specification
+
+> RESTler. Alarcon et al. [Alarcón and Wilde, 2010] provide RESTler that crawls a RESTful service and aims to generate a map that presents all the provided resources and their links. It has proposed a new description ReLL (Resource Linking Language) to describe RESTful services.
+
+> D2Spec. Yang et al. [Yang et al., 2018; Dolby et al., 2018] provide D2Spec that extract web API specification from online documentation, which is quite similar to our work.
+
 > * 2.2.3 Crowd-sourcing approach . . . . . . . . . . . . . . . . . . . . . . . . . 22
 > * 4.3 ExtrateREST: an automated extractor for the generation of REST API specification
 > * 4.3.1 Global architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
