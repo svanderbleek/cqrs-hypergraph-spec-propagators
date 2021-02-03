@@ -91,6 +91,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* Trace Partitioning in Abstract Interpretation Based Static Analyzers http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E0354DE223C1928921984ED1DCF8D4D8?doi=10.1.1.80.3933&rep=rep1&type=pdf
+
+> This paper proposes a systematic way of regaining some knowledge about the traces by performing the abstraction over a partition of the set of traces instead of the set itself. This systematic refinement is not only theoretical but tractable: we give automatic procedures to build pertinent partitions of the traces and show the efficiency on an implementation integrated in the Astrée static analyzer, a tool capable of dealing with industrial-size software.
+
 * A Linked Open Data Approach for Web Service Evolution
 
 > Web services are subject to changes during their lifetime, such as updates in data types, operations, and the overall functionality. Such changes may impact the way Web services are discovered, consumed, and recommended. We propose a Linked Open Data (LOD) approach for managing Web services new deployment and updates. We propose algorithms, based on semantic LOD similarity measures, to infer composition and substitution relationships for both newly deployed and updated services. We introduce a technique that gathers Web service interactions and users’ feedbacks to continuously update service relationships. To improve the accuracy of relationship recommendation, we propose an algorithm to learn new LOD relationships from Web service past interaction. We conduct extensive experiments on real-world Web services to evaluate our approach.
