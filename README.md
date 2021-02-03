@@ -85,6 +85,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * feature oriented domain analysis https://en.wikipedia.org/wiki/Feature-oriented_domain_analysis
 
+* https://en.m.wikipedia.org/wiki/Tracing_(software)
+
 ## Research
 
 * A Linked Open Data Approach for Web Service Evolution
