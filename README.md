@@ -197,7 +197,12 @@ new node can be added within an array or as a new property of an object.
 > — They choose not to support array node, or to support them poorly. In principle all the editing operations of the JSON RFC apply to array nodes as well as object nodes. A patch can then express changes done within an array. For instance in Figure 2.11, an optimal patch uses the move operation to put v3 to the end of the array. Moreover, it uses the copy operation for copying the existing node v1. Regarding the support of array, the Table 2.3 shows that half of the approaches do not support array at all, and consider them as a simple node (with nothing inside). The other half simply considers that an array is a stack, and therefore supports change operation that can apply to a stack (push and pop).
 
 > * 5.2 JDR: a JSON patch algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
-> * 5.3 Efficiency evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75
+
+> We evaluate the efficiency of the JavaScript implementation of our algorithm against existing JavaScript libraries that support the JSON Patch RFC. The evaluation has been done by requesting real web applications with data suggested by our industrial partner. It clearly shows that our library outperforms the other libraries. It creates a small patch quite fast, and can handle different situations (where the changes target objects’ properties or arrays). 5.4. CONCLUSION 81 As a main conclusion, we provide an efficient algorithm to create a path between two versions of a JSON document. The patch created by our approach fully complies with RFC. Even it is not optimal, it however expresses all change operations such as the move and copy ones, and the ones that target arrays
+
+* Extracting Records from the Web Using a Signal Processing Approach https://www.researchgate.net/profile/Roberto_Velloso/publication/320882865_Extracting_Records_from_the_Web_Using_a_Signal_Processing_Approach/links/5a02ed2caca2720c3263ab7b/Extracting-Records-from-the-Web-Using-a-Signal-Processing-Approach.pdf
+
+> We have shown here a novel approach for the problem of extracting records from semi-structured web pages based on a new insight: seeing the structure of the document as a cyclic signal
 
 * Putting the semantics into semantic versioning https://arxiv.org/pdf/2008.07069
 
