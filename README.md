@@ -166,9 +166,8 @@ to make the main information machine-readable in the HTML. They add the pre-defi
 > D2Spec. Yang et al. [Yang et al., 2018; Dolby et al., 2018] provide D2Spec that extract web API specification from online documentation, which is quite similar to our work.
 
 > * 4.3 ExtrateREST: an automated extractor for the generation of REST API specification
-> * 4.3.1 Global architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
-> * 4.3.2 Step 1: gather relevant HTML documentation pages . . . . . . . . . 53
-> * 4.3.3 Step 2: extract information from relevant pages . . . . . . . . . . . . 55
+
+> ExtrateREST inputs a single index URL, gets all the documentation pages that are linked by it, selects the useful ones thanks to a machine-learning algorithm, extracts the endpoint information according to a manually-built extraction configuration, and then produces the corresponding OpenAPI specification. It is fully available as an open-source project. ExtrateREST solves two main challenges. The first one is the dispersal of the information contained in the HTML pages of a REST API documentation. It settles this challenge by classifying the HTML pages and selecting interesting ones. The second challenge is the heterogeneity of HTML layouts and vocabulary of the HTML documentations among the different service providers. It then resolves this challenge by using an extraction configuration provided by developers. The validation we performed shows that ExtrateREST produces good results for popular REST services as well as randomly selected ones. ExtrateREST returns a partial but quite complete specification for four-fifths of the popular REST services. For randomly selected REST services it is less successful mainly because the provided HTML documentation is not structured as one of the most popular REST services
 
 > * How to adapt to the data changes of REST services?
 
@@ -190,6 +189,13 @@ new node can be added within an array or as a new property of an object.
 > The RFC specifies a standard way to encode a patch into a JSON document. More precisely a patch is an array of change operations where each change operation is encoded by a single object with properties specifying the kind of operation, the source and target nodes, and the new value if needed.
 
 > * 2.3.4 JSON Patch Algorithms .
+
+> JSON documents are mainly labeled unordered trees (object nodes and their properties), where some nodes are arrays, hence ordered. The theory states that when just the add, r emove and r ep l ace operations are considered, the problem of finding a minimal patch is O(n 3) for ordered trees and NP-hard for unordered trees [Zhang et al., 1992; Bille, 2005; Pawlik and Augsten, 2011; Higuchi et al., 2012]. When the move operation is also considered, the problem is NP-hard for both kind of trees [Bille, 2005]. That is why several algorithms from the document engineering research field use practical heuristics. One of the most famous is the algorithm of Chawathe et al. [Chawathe et al., 1996] that computes patches (containing move actions) on trees representing LaTeX files. Several algorithms have also been designed specifically for XML documents [Cobena et al., 2002; Al-Ekram et al., 2005]. One of them [Lindholm et al., 2006] is even capable of detecting copy operations. Several existing approaches support the creation of JSON Patches. 20 By analyzing all of them, it appears that they all take one or two of these simplifications to make the problem tractable
+
+> — They choose not to support the move and copy operations that are yet specified in the RFC, and therefore provide non-optimal patches. As an example in the Figure 2.11, an optimal patch uses move operation to handle the property label renaming from val to va. Without such a move operation, the patch then uses a r emove property val and a add property va. Moreover, an optimal patch uses a copy operation for the property mes2 and its value copied from mes1. The Table 2.3 shows that only one existing approach does support these operations.
+
+> — They choose not to support array node, or to support them poorly. In principle all the editing operations of the JSON RFC apply to array nodes as well as object nodes. A patch can then express changes done within an array. For instance in Figure 2.11, an optimal patch uses the move operation to put v3 to the end of the array. Moreover, it uses the copy operation for copying the existing node v1. Regarding the support of array, the Table 2.3 shows that half of the approaches do not support array at all, and consider them as a simple node (with nothing inside). The other half simply considers that an array is a stack, and therefore supports change operation that can apply to a stack (push and pop).
+
 > * 5.2 JDR: a JSON patch algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
 > * 5.3 Efficiency evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75
 
