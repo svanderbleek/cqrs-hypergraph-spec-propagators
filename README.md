@@ -832,6 +832,10 @@ code base based on a selection of desired configuration options.
 
 > A tool for automatically generating system-level test cases. Currently targeting REST APIs.
 
+* pythia https://github.com/mboehme/pythia
+
+> Pythia provides statistical correctness guarantees for fuzzing campaigns (correctness), and quantifies how difficult it is to discover paths in a program (difficulty)
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
