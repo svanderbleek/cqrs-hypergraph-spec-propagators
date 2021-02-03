@@ -388,6 +388,22 @@ new node can be added within an array or as a new property of an object.
 
 > Focussing on a single client at a time, the work of Mezzetti et al. [2018], which introduces type regression testing, helps upstream developers avoid creating breaking changes in their node.js libraries. They leverage the known dependencies of the library under analysis and use the dependencies’ test cases to build a model of that library—in particular, of how the library is actually used downstream. Then, comparing models before and after a change detects changes that are breaking with respect to one client. Looking across clients, Mujahid et al. [2020] pool tests from a range of clients to determine whether a particular library change is generally breaking.
 
+> Incremental and scalable static analysis. As software lifecycle iterations become ever shorter and programs ever larger, novel static analysis techniques have been deployed to make timely analysis possible. The elegant solution is to incrementalize—moving from computing results from scratch on each analysis run to updating the static analysis models and reading results from the models. New techniques to incrementalize are emerging for static analysis frameworks like Doop [Bravenboer and Smaragdakis 2009], bddbddb [Whaley et al. 2005], and Flix [Madsen et al. 2016] which are based on Datalog-based representations. The commercial Semmle tools also employ Datalog (QL)34. In Datalog, adding information and reading off new incremental results is trivial, as the fixpoint can be easily recomputed.
+
+> The situation is significantly more complex when information has to be retracted. There is recent research in this space, with the incremental DDlog engine recently becoming available [Ryzhyk and Budiu 2019]. The Doop repository contains an experimental analysis based on DDlog35. There is active work to add incremental computation to Soufflé, the default engine used by Doop [Zhao et al. 2019]. As another, particularly relevant, example, the Facebook Infer tool [O’Hearn et al. 2017] performs inference and interprocedural verification of program properties that can be viewed as extended types, including nullness and resource leaks. It uses a compositional shape analysis [Calcagno et al. 2011]. Infer is extremely scalable—it runs quickly enough even on codebases with up to tens of millions of lines—even though it performs an inter-procedural analysis. One key to its scalability is its use of incremental static analysis: it records analysis information on each run and reuses this information on subsequent runs. Infer shows that (with sufficient engineering effort) such tools have the potential to be usable on industrial-sized codebases.
+
+> High-recall static analysis. Traditionally static analysis has focused on balancing precision and scalability. More recently, researchers have turned their focus to recall or soundness, i.e. addressing issues around false negatives [Livshits et al. 2015]. Sui et al. [2020] have demonstrated the importance of this—standard call graph construction algorithms suffer from significant numbers of false negatives, undermining the utility of graph- and points-to-based analyses.
+
+> Moreover, there are multiple sources of unsoundness, each having a significant impact, while research has focused on only one category (reflection) [Livshits et al. 2005; Smaragdakis et al. 2015].
+
+> Our interest in this essay is in detecting breaking changes. Recall is relevant to this application because a sound, or at least a high-recall, analysis means that there are either no issues being missed, or that the number of issues that are being missed is reduced to an acceptable level. This can give users enough confidence to use tools to detect compatibilityrelated bugs. High-recall tools avoid or minimize chances for expensive runtime errors caused by undetected bugs, and the corresponding need to roll back upgrades.
+
+> Recent progress in this field has focused on two areas: modelling of various dynamic language features in pure static analyses [Fourtounis et al. 2018; Fourtounis and Smaragdakis 2019], and hybrid analyses blending information gathered from program runs (via stack sampling, instrumentation, or heap snapshots) into static analyses [Bodden et al. 2011; Grech et al. 2017].
+
+> We advocate for the use of data provenance, as defined in [Buneman et al. 2001]: “where a piece of data came from and the process by which it arrived in the database”. Currently, in semantic versioning, upstream developers provide a version number, a set of code changes, and perhaps a textual changelog. We envision a future where upstream developers provide, along with the version number, metadata encoding the reasoning behind the choice of that number, as supported by output from a versioning calculator (possibly stored in a database). In this future, downstream developers can use the provenance information to (1) establish trust in a versioning scheme, and (2) help them to assess where additional verification checks for a particular client should be performed
+
+> changelog. We envision a future where upstream developers provide, along with the version number, metadata encoding the reasoning behind the choice of that number, as supported by output from a versioning calculator (possibly stored in a database). In this future, downstream developers can use the provenance information to (1) establish trust in a versioning scheme, and (2) help them to assess where additional verification checks for a particular client should be performed
+
 * Using Others’ Tests to Identify Breaking Updates
 
 * On the recall of static call graph construction in practice
@@ -768,6 +784,7 @@ The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorith
 * Towards Extracting Web API Specifications from Documentation
 * A Categorical Theory of Patches
 * Type Regression Testing to Detect Breaking Changes in Node.js Libraries
+* Putting the Semantics into Semantic Versioning
 
 ### Data Driven
 
