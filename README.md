@@ -620,6 +620,9 @@ They get to install agents
 
 SpyREST generates automated, customizable, version aware, and scenario based documentation for your REST API from real API calls
 
+* https://apis.guru/openapi-directory/
+
+> Our goal is to create a machine-readable Wikipedia for REST APIs with the following principals
 
 ## Oddshots
 
@@ -714,6 +717,8 @@ Data sources: Log files, network topologies
 Properties analyzed: versioning, dependency, security, change management, cost, licensing
 
 API calls in cloud control plane, apis have audit log (custodian has subscribe and invoke policy, real-time using flight recording)
+
+We can offer ide services based on knowledge of apis
 
 ### Categorical Databases
 
