@@ -235,6 +235,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > Applications based on micro-services or web services have had a significant growth due to the exponential increase in the use of mobile devices whose applications rely almost entirely on this type of interfaces. However, using an external interface comes with no guarantees to the developers using it. Changes may be introduced at any moment, which can break the software that is using those APIs. It is necessary to give the consumers guarantees that their software will not break, but not at the expense of stagnating the development of said web service. In this document we present a programming model to evolve web services in a sustainable way and to automate most of the maintainability that might be required by the consumer. This model works by allowing multiple versions to be deployed, and then using a relation containing metadata to type check versions. By doing this, it is possible to guarantee type safety between all the versions to provide a sustainable way to evolve the service. A prototype framework was implemented in JavaScript, where it is possible to visualize the model working in an environment similar to what it is used in the industry nowadays.
 
+* Automated Example Oriented REST API Documentation at Cisco
+
+> In this research, we presented the results of using SpyREST at Cisco to maintain an up-to-date documentation with usage examples for an evolving REST API. Our primary findings provide an evidence that SpyREST can be used as a practical REST API documentation tool.
+
 ## Future Direction
 
 * QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs https://arxiv.org/pdf/1912.09686
