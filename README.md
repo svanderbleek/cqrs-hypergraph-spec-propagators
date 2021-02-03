@@ -95,6 +95,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* Capturing and Enhancing In Situ System Observability for Failure Detection
+
 * Combining model checking and data-flow analysis
 
 * JaVerT: JavaScript verification toolchain
@@ -187,6 +189,10 @@ title is a joke, research dumping ground for formal models of api dependencies
 > • (cn,sn) corresponds to the vertical edge where inputs from old clients are sent to an old service version,
 > • (cn,sn+1) (the diagonal edge) is the state when the service is already updated, but the new specification not yet published, and
 > • (cn+1,sn+1) is the final configuration when both clients and service are updated.
+
+> Static Diffing to Find Specification Regressions. Our stateful and stateless approaches to diffing network logs are built upon standard algorithms for computing edit distances and edits scripts [38]. Diffing can be applied directly to Swagger specifications in order to find some types of clear regressions, such as removing a request from an API [1]. However, static diffing of specifications has its own challenges. First, these diffs can be large: for instance, the 16 diffs files obtained by pairwise diffing all 17 Azure Network API Swagger specifications in chronologic order result in a total of 15,571 lines and 465,624 bytes. Second, most differences are harmless: adding new files, reorganizing API requests, adding or modifying examples, etc. Third, even when modifying specific parameters in a new specification version, the old parameters are often still handled correctly by the new service for backwards-compatibility reasons, and therefore are not regressions; the only way to eliminate such false alarms is by dynamically testing the new service against (client code generated from) the old specification. In contrast, specification regressions can be found with stateless diffing and the diagonalonly strategy (16 diffs) by inspecting only 302 lines (see Table 4), i.e., two orders of magnitude less data compared to 15,571 lines with static diffing. Overall, static specification diffing is complementary to the dynamic testing-based approach developed in this work.
+
+* RESTler: Stateful REST API Fuzzing
 
 * Specification of Generic APIs, or: Why Algebraic May Be Better Than Pre/Post
 
@@ -617,9 +623,17 @@ code base based on a selection of desired configuration options.
 
 > This re-documentation is performed from the analysis of both object-oriented code and project deployment descriptors. The re-documentation process targets the Dedal architecture language which is especially tailored for managing and driving software evolution. Another highly important aspect of software documentation relates to the way concepts are versioned. Indeed, in many approaches and actual version control systems such as GitHub, files are versioned in an agnostic manner. This way of versioning keeps track of any file history. However, no information can be provided on the nature of the new version, and especially regarding software backward-compatibility with previous versions. This thesis thus proposes a formal way to version software architectures, based on the use of the Dedal architecture description language which provides a set of formal properties. It enables to automatically analyze versions in terms of substitutability, version propagation and proposes an automatic way for incrementing version tags so that their semantics corrrespond to actual evolution impact.
 
+* Intelligent REST API Data Fuzzing
+
 ## Future Direction
 
 * QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs https://arxiv.org/pdf/1912.09686
+
+* Capturing and Enhancing In Situ System Observability for Failure Detection https://jaylorch.net/static/publications/panorama.pdf
+
+* Logram: Efficient log parsing using n-gram dictionaries https://arxiv.org/pdf/2001.03038
+
+* CrashTuner: detecting crash-recovery bugs in cloud systems via meta-info analysis
 
 ## Tools
 
@@ -706,6 +720,10 @@ code base based on a selection of desired configuration options.
 > Full featured API checker for Java and beyond.
 
 * static analysis tools repo https://github.com/analysis-tools-dev/static-analysis
+
+* restler https://github.com/microsoft/restler-fuzzer
+
+> RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.
 
 ## Industry
 
