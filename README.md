@@ -93,6 +93,19 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* Declaration patterns in dependency management
+
+* Will Dependency Conflicts Affect My Program’s Semantics? https://arxiv.org/pdf/2006.07633.pdf
+
+* Prazi: From Package-based to Call-based Dependency Networks https://arxiv.org/pdf/2101.09563.pdf
+  * https://github.com/praezi/rust
+
+> To better model dependencies between packages, we devise Prazi ¨ , an approach combining manifests and call graphs of packages. Prazi constructs a fine-grained dependency network at the more fine-grained function-level, instead of at the manifest-level.
+
+* Dependency Versioning in the Wild https://researchspace.auckland.ac.nz/bitstream/handle/2292/49003/2019_MSR_versioning.pdf?sequence=2
+
+> When declaring dependencies, developers face various choices, such as whether or not to declare a fixed version or a range of versions. The former results in runtime behaviour that is easier to predict, whilst the latter enables flexibility in resolution that can, for example, prevent different versions of the same package being included and facilitates the automated deployment of bug fixes.
+
 *  Differential regression testing for REST APIs https://patricegodefroid.github.io/public_psfiles/issta2020.pdf
 
 > For generating inputs (sequences of HTTP requests) to services, we use RESTler, a stateful fuzzer for REST APIs. Comparing the outputs (HTTP responses) of a cloud service involves several challenges, like abstracting over minor differences, handling out-of-order requests, and non-determinism
@@ -599,6 +612,10 @@ code base based on a selection of desired configuration options.
 * Infer https://engineering.fb.com/2017/09/06/android/finding-inter-procedural-bugs-at-scale-with-infer-static-analyzer/
 
 > Infer represents its summaries as specifications in a program logic. In more detail, a specification is a pair (pre,post) of a precondition and a postcondition
+
+* revapi https://revapi.org/revapi-site/index.html
+
+> Full featured API checker for Java and beyond.
 
 ## Industry
 
