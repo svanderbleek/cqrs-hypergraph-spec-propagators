@@ -208,11 +208,17 @@ new node can be added within an array or as a new property of an object.
 
 > Software services are, just like any other software system, subject to permanent change. We argue that these changes should generally be transparent to service consumers. However, currently consumers are often tied to a given version of a service and have no means of easily upgrading to a newer version. In this paper we propose a WSDL-driven classification of Web service change types and discuss a versioning mechanism for service-oriented systems that considers revision management on registry- and client-side. We use the concepts of service version graphs and selection strategies to provide transparent end-to-end versioning support, and show how this approach is implemented in our service-oriented computing runtime VRESCo. Furthermore, we illustrate the advantages of our approach in comparison to the current state of the art using a realistic case study
 
+> A classification scheme for differences between Web services has been proposed by Ponnekanti et al. [13]. They specify four types of incompatibilities: structural, value, encoding, and semantics.
+
+> In order to manage Web service evolution, service registries need to store not only the service revisions itself, but also how they relate to each other. We use the notion of service version graphs to represent these dependencies. For every service in the registry there is exactly one service version graph. These graphs are directed, with nodes representing concrete revisions of the service, and edges representing predecessor-successor relationships. The semantics of these relationships is that revision A is a predecessor of revision B, if B is the result of changes in A. All revisions in a service version graph refer to the same base service, but are on different maturity levels and represent different stages in the base service’s lifecycle.
+
 *  Interoperability Among Independently Evolving Web Services
 
 > Interoperability with substituted services is non-trivial, however, and four types of incompatibilities may arise during such interoperation – structural, value, encoding and semantic. We address these incompatibilities three-fold: (1) static and dynamic analysis tools to infer whether an application is compatible with a substituted service, (2) semiautomatically generated middleware components called cross-stubs that actually resolve incompatibilities and enable interoperation with substituted services, and (3) a lightweight mechanism called multi-option types to enable applications to be written from the ground up in an interoperation-friendly manner.
 
-> A classification scheme for differences between Web services has been proposed by Ponnekanti et al. [13]. They specify four types of incompatibilities: structural, value, encoding, and semantics. 
+> Given the service derivation scheme of the previous section, four types of incompatibilities may arise between applications and non-native services: structural, value, encoding and semantic. A structural incompatibility is a mismatch in the structure of the (XML) message sent by the sender and expected by the receiver, while a value incompatibility arises when the structure is as expected, but the filled-in values are unexpected. The bulk of the paper deals with structural and value incompatibilities (together referred to as SV-incompatibilities), and they are explained in more detail below. Encoding incompatibilities, illustrated and addressed in section 4, arise because instances belonging to different schema types are not identical even if they have the same structure and identical values. As explained in the previous section, semantic incompatibilities arise when different vendors introduce extensions with identical syntax (i.e., same struc- ture and value) but differing meanings, and the problem can be alleviated by namespaces and facets as further discussed in section 7.
+
+> Compatibility Based on Statically Inferred Usage Behavior We provide a tool CAT-S (compatibility analysis tool-static) that uses the usage tuples to eliminate irrelevant SV-incompatibilities between the source and target interfaces. Each incompatibility i is processed by CAT-S as follows depending on which category (among I1 − I8 from figure 3) it belongs to
 
 * Putting the semantics into semantic versioning https://arxiv.org/pdf/2008.07069
 
@@ -545,6 +551,8 @@ Spec with name is enough in the Hickey model
 ## Strategy
 
 json and rest are solved problems for ingestion and diffing
+
+in a dependency graph spec conflicts represent breaking change
 
 full automation, inference engine, formal behavior tracking, expansion eat ops level lunch
 
