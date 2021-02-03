@@ -77,7 +77,19 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * property graph https://en.wikipedia.org/wiki/Graph_database#Labeled-property_graph
 
+* linked open data https://en.wikipedia.org/wiki/Linked_data#Linked_open_data
+
 ## Research
+
+* A Linked Open Data Approach for Web Service Evolution
+
+> Web services are subject to changes during their lifetime, such as updates in data types, operations, and the overall functionality. Such changes may impact the way Web services are discovered, consumed, and recommended. We propose a Linked Open Data (LOD) approach for managing Web services new deployment and updates. We propose algorithms, based on semantic LOD similarity measures, to infer composition and substitution relationships for both newly deployed and updated services. We introduce a technique that gathers Web service interactions and users’ feedbacks to continuously update service relationships. To improve the accuracy of relationship recommendation, we propose an algorithm to learn new LOD relationships from Web service past interaction. We conduct extensive experiments on real-world Web services to evaluate our approach.
+
+> Linked Open Data (LOD) - LOD is an initiative that aims at transforming traditional web of single hyperlink relation to a web of multidimensional268 H. Labbaci et al. semantic links [2].
+
+> Multi-relation Network of Web Services - In previous research [9], we modeled Web service interactions using a multi-relation graph. Web services make-up the nodes of the graph, and the different invocations that occur between them such as composition, substitution, and subscription constitute its edges
+
+> Similarity between Service Features Annotated with LOD Resources - This section proposes a model to compute the semantic similarity among two service features annotated with LOD resources
 
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
 
