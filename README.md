@@ -577,3 +577,4 @@ Injesting logs would involve difficult automation as shown in Towards Extracting
 * focus on existence information, fields, does generalize to other information reducers? Crdt?
 * dependency alert propagation 
 * support information flow from consumer and producer side
+* sessions? api tokens?
