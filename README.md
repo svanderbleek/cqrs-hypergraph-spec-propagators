@@ -325,6 +325,35 @@ new node can be added within an array or as a new property of an object.
 
 * Putting the semantics into semantic versioning https://arxiv.org/pdf/2008.07069
 
+> Our thesis is that a critical part of helping developers safely upgrade is by detecting changes to contract specifications and implementations. The question then arises: “What exactly is a contract, and how do we find them?” Of course, there are many ways to define contracts! While contracts are often thought of in terms of programming constructs (e.g. types, pre/post-conditions, etc) they equally apply at higher levels (e.g. REST APIs, protocols, etc) and lower levels (e.g. linking) as well as to non-technical artifacts (e.g. licenses). Contracts can cover both functional and non-functional requirements— a significant degradation in the performance of a library might be considered a contract violation. Finally, contracts may be explicit (e.g. method foo() returns a List) or implicit (e.g. suggested by a method name such as export()).
+
+> Contracts can help both upstream and downstream developers. From the upstream perspective, the constraints imposed by the contract actually represent freedom to change what is not in the contract. Behavioural properties not mentioned in the contract may be changed. Of course, the provider of an upstream component must preserve behaviour that is mentioned in the contract, or else explicitly amend the contract. Non-functional properties may be more fraught: there may be legitimate but undocumented expectations about performance, for instance. From the downstream perspective, unchanged contracts, along with tools to guarantee conformance to those contracts, can give developers more confidence that new versions are safe to upgrade to; differences between contracts point out where adaptation is needed.
+
+> Formal contract inference. The traditional problem ofspecification inference —that is, the automatic inference of preand post-conditions—from legacy code has been studied extensively [Cousot et al. 2011; Polikarpova et al. 2009]. Indeed, Leino [2001] argues this is crucial to enabling more widespread uptake of verification technology: “For programming teams with large amounts of already written code, the initial investment of adding annotations to the legacy code seems daunting.”
+
+> Most approaches to this problem are based on some combination of inferring weakest preconditions and strongest postconditions [Barnett and Leino 2005; Dijkstra 1976]. SnuggleBug is a salient example which employs a range of techniques [Chandra et al. 2009]. For example, it interleaves symbolic analysis with call graph construction to yield a more precise construction, and employs generalization to ensure specifications contain only “pertinent” information. 
+
+> Program documentation (using natural language processing techniques) is also a source of program properties; for instance, Yang et al. [2018] extract endpoints from documentation of web APIs. Such approaches also work for extracting models from documentation [Zhai et al. 2016] or from code comments.
+
+> Specification inference can also extract properties from program executions as in Daikon [Ernst 2000]. The work of McCamant and Ernst [2003] was particularly foresighted and relevant here: they developed an analysis based on dynamic invariant detection for predicting component upgrade problems in the context of a particular client. This essay proposes a research programme which is broader than that work on a number of axes: among others, we include the unknown-client case; propose the use of static and hybrid analyses; and point out the importance of non-behavioural properties.
+
+> Lightweight contract inference. While inferring full specifications might be considered an ideal (in some sense), such specifications are expensive and fail to realize their full benefits without tools which can statically check them. As a result, much work has focused on inferring properties that can be viewed either as limited contracts or extended type systems. For example, researchers have developed tools that infer non-null annotations [Ekman and Hedin 2007] (in a world without Non-Null by Default) and ownership annotations [Dymnikov et al. 2013; Flanagan and Freund 2007; Huang et al. 2012; Milanova and Liu 2009].
+
+> Focussing on a single client at a time, the work of Mezzetti et al. [2018], which introduces type regression testing, helps upstream developers avoid creating breaking changes in their node.js libraries. They leverage the known dependencies of the library under analysis and use the dependencies’ test cases to build a model of that library—in particular, of how the library is actually used downstream. Then, comparing models before and after a change detects changes that are breaking with respect to one client. Looking across clients, Mujahid et al. [2020] pool tests from a range of clients to determine whether a particular library change is generally breaking.
+
+* Using Others’ Tests to Identify Breaking Updates
+
+* On the recall of static call graph construction in practice
+
+
+* Type Regression Testing to Detect Breaking Changes in Node.js Libraries
+
+> (1) Public API Discovery In the first phase, all the packages with tests that depend on the old library version are retrieved from npm
+
+> Then, a public API model of both the old and the new library version is built using an instrumented interpreter that runs the tests of all the collected dependents. A model π, which we formally define in Section 5, is a map from dynamic access paths to types.
+
+> (2) Type Regression Detection In the second phase, we compare the models π and π 0 obtained from the old and the new library version to report type regressions, which are indications of type-related breaking changes. Type regressions are detected by comparing π(p) and π 0 (p) for every dynamic access path p, using a notion of subtyping
+
 * A catalogue of inter-parameter dependencies in RESTful web APIs http://personal.us.es/sergiosegura/files/papers/martinlopez19-icsoc.pdf
 
 * Towards User-Friendly Projectional Editors https://sjmulder.nl/dl/pdf/unsorted/2014%20-%20Voelter%20et%20al%20-%20Towards%20User-Friendly%20Projectional%20Editors.pdf
@@ -465,6 +494,20 @@ code base based on a selection of desired configuration options.
 
 > Unfortunately, feature models are difficult to build and evolve. Features need to be identified, grouped, organized in a hierarchy, and mapped to software assets. Also, dependencies between features need to be declared. While feature models have been the subject of three decades of research, resulting in many feature-modeling notations together with automated analysis and configuration techniques, a generic set of principles for engineering feature models is still missing. It is not even clear whether feature models could be engineered using recurrent principles. Our work shows that such principles in fact exist. 
 
+* Dynamically Discovering Likely Program Invariants https://asa.iti.kit.edu/daikon.pdf
+
+* Early Identification of Incompatibilities in Multi-component Upgrades
+
+* Model-Based Testing of Breaking Changes in Node.js Libraries
+
+> This paper presents a model-based variant of type regression testing. Instead of comparing API models of a library before and after an update, it finds breaking changes by automatically generating tests from a reusable API model. Experiments show that this new approach significantly improves scalability: it runs faster, and it can find breaking changes in more libraries.
+
+> An API model is a triple (π, σ, ρ). We first explainπ, which is map of the form π : Path → Type that associates types with elements of a library API. The set Path consists of dynamic access paths, each being a sequence of actions, as described in the following grammar by p and α, respectively.
+
+* ARIANE : Automated Re-Documentation to Improve software Architecture uNderstanding and Evolution
+
+> This re-documentation is performed from the analysis of both object-oriented code and project deployment descriptors. The re-documentation process targets the Dedal architecture language which is especially tailored for managing and driving software evolution. Another highly important aspect of software documentation relates to the way concepts are versioned. Indeed, in many approaches and actual version control systems such as GitHub, files are versioned in an agnostic manner. This way of versioning keeps track of any file history. However, no information can be provided on the nature of the new version, and especially regarding software backward-compatibility with previous versions. This thesis thus proposes a formal way to version software architectures, based on the use of the Dedal architecture description language which provides a set of formal properties. It enables to automatically analyze versions in terms of substitutability, version propagation and proposes an automatic way for incrementing version tags so that their semantics corrrespond to actual evolution impact.
+
 ## Future Direction
 
 * QuickREST: Property-based Test Generation of OpenAPI-Described RESTful APIs https://arxiv.org/pdf/1912.09686
@@ -544,6 +587,10 @@ code base based on a selection of desired configuration options.
 > A model-based test case generator
 
 * https://www.schemacrawler.com/
+
+* Infer https://engineering.fb.com/2017/09/06/android/finding-inter-procedural-bugs-at-scale-with-infer-static-analyzer/
+
+> Infer represents its summaries as specifications in a program logic. In more detail, a specification is a pair (pre,post) of a precondition and a postcondition
 
 ## Industry
 
@@ -632,6 +679,7 @@ SpyREST generates automated, customizable, version aware, and scenario based doc
 
 > Our goal is to create a machine-readable Wikipedia for REST APIs with the following principals
 
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
@@ -666,6 +714,7 @@ The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorith
 * Graph data management of evolving dependency graphs for multi-versioned codebases
 * Towards Extracting Web API Specifications from Documentation
 * A Categorical Theory of Patches
+* Type Regression Testing to Detect Breaking Changes in Node.js Libraries
 
 ### Data Driven
 
