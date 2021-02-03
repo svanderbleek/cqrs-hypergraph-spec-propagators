@@ -125,6 +125,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > Web API specifications are machine-readable descriptions of APIs. These specifications, in combination with related tooling, simplify and support the consumption of APIs. However, despite the increased distribution of web APIs, specifications are rare and their creation and maintenance heavily rely on manual efforts by third parties. In this paper, we propose an automatic approach and an associated tool called D2Spec for extracting significant parts of such specifications from web API documentation pages. Given a seed online documentation page of an API, D2Spec first crawls all documentation pages on the API, and then uses a set of machinelearning techniques to extract the base URL, path templates, and HTTP methods – collectively describing the endpoints of the API.
 
+> The web API’s base URL is essential in a web API specification: any URL of a Web API request must contain the base URL and the relative path of the corresponding endpoint. More formally, a base URL is a common prefix of all URLs for web API invocations, excluding other URLs such as documentation pages. In OpenAPI specifications, a base URL is constructed via three fields: a scheme (e.g., https), the host (e.g., api.instagram.com), and optionally a base path (e.g., /v1). In many APIs (e.g., Instagram API), the base URL is the longest common prefix of all the URLs for invoking the web API. However, for other APIs, such as Microsoft’s The DevTest Labs Client API, the longest common prefix is https://management. azure.com/subscriptions while the actual base URL is https://management.azure.com, because /subscriptions is defined to be part of the endpoint paths. Whether a base URL is indeed the longest common prefix is a design decision of the API provider. A path template defines fixed components of a URL as well as ones to be instantiated dynamically. For example, in the path template /users/{userId}/posts, the part {userId} is a path parameter that needs to be instantiated with a concrete value of a user ID before performing a request. A path parameter is typically denoted via enclosing brackets (i.e., “{}”, “[]”, “<>”, or “()”) or a prefix “:”. D2Spec focuses on one type of description associated with the path template: the HTTP method. It reflects the type of interaction to be performed on a resource exposed by a web API. While many web APIs long relied on GET and POST, now a much broader spectrum of methods is used [22]. As proposed in related work, we denote every valid combination of a path template and an HTTP method as an endpoint of the API [26].
+
 * APIComposer: Data-driven composition of REST APIs https://modeling-languages.com/wp-content/uploads/2018/08/esocc2018.pdf
 
 * REST API Auto Generation: A Model-Based Approach https://www.researchgate.net/profile/Samer_Zein/publication/344403957_REST_API_Auto_Generation_A_Model-Based_Approach/links/5f71dddba6fdcc0086438ed0/REST-API-Auto-Generation-A-Model-Based-Approach.pdf
@@ -186,6 +188,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 * Graph data management of evolving dependency graphs for multi-versioned codebases
 
 > In this work we focus on the challenges associated with the management of multiple source code revisions, and investigate strategies to enable advanced code comprehension when the underlying codebase evolves over time. To find the deltas, we detail how entities can be resolved across versions, and propose a model for representing evolving dependency graphs.
+
+> A ‘version’ or a ‘snapshot’ of the codebase is user-defined; incremental revisions to the code may be distinguished in terms of commits or an aggregated set of commits, and is generally associated with a revision number and/or a timestamp. Each new version of the source code produces a modified version of the dependency graph. In the rest of the document we use the terms version and snapshot interchangeably to refer to a particular point in time, either in the codebase or the corresponding dependency graph.
 
 > We show growth and storage benefits of versioned graphs compared to independently storing individual snapshots. We also demonstrate how existing Frappe queries can be executed on ´ versioned graphs and new queries can retrieve a history of changes in a function for a code review use case.
 
@@ -393,11 +397,12 @@ What we propose should provide meaningful versioning and be verifiable as a form
 
 The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorithm
 
-### Key Discoveries
+### Key Papers
 
 * A First Look at the Deprecation of RESTful APIs
 * On the Effectiveness of Incremental Fact Extraction and Analysis
 * Graph data management of evolving dependency graphs for multi-versioned codebases
+* Towards Extracting Web API Specifications from Documentation
 
 ### Data Driven
 
@@ -453,6 +458,14 @@ Data sources: Log files, network topologies
 Properties analyzed: versioning, dependency, security, change management, cost, licensing
 
 API calls in cloud control plane, apis have audit log (custodian has subscribe and invoke policy, real-time using flight recording)
+
+### Categorical Databases
+
+Specs are like schemas in category of databases, we are learning the migrations which are morphisms in category of schemas.
+
+### Automation
+
+Injesting logs would involve difficult automation as shown in Towards Extracting Web API Specifications from Documentation.
 
 ### Potential Difficulties
 
