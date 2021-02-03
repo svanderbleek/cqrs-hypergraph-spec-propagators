@@ -91,6 +91,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * symbolic execution https://en.m.wikipedia.org/wiki/Symbolic_execution
 
+* american fuzzy lop https://en.wikipedia.org/wiki/American_fuzzy_lop_(fuzzer)
+
 ## Research
 
 * V2: Fast Detection of Configuration Drift in Python
