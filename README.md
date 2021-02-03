@@ -97,6 +97,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * OAS DB: A Repository of Specifications to Support OpenAPI Research
 
+> There do exist directories of APIs (e.g., RapidAPI2)and even collections of OpenAPI specifications (e.g., APIs Guru3 ). However, these existing solutions are not a good fit for researchers for two important reasons. The first one is the lack of annotations in the OpenAPI samples, making it challenging for a researcher to check the performance of a tool tested against these existing solutions. Without annotated samples, it becomes labor intensive to produce metrics because one has to manually analyze every specification touched by the tool under assessment (e.g., to confirm true positives). The second reason is the fact that the focus of these repositories is simply on creating OpenAPI specifications for existing web services, without a concentrated effort (such as in the case of OAS DB) in adding new samples that actually increase the diversity of scenarios covered (both in terms of anti-patterns contained in the repository and in terms of domains covered by its samples).
+
 * RESTest: Black-Box Constraint-Based Testing of RESTful Web APIs
 
 > In this paper, we present RESTest, a framework for automated black-box testing of RESTful APIs. Among its key features, RESTest supports the specification and automated analysis of interparameter dependencies, enabling the use of constraint solvers for the automated generation of valid test cases.
@@ -655,6 +657,13 @@ code base based on a selection of desired configuration options.
 * CrashTuner: detecting crash-recovery bugs in cloud systems via meta-info analysis
 
 * Automatic Property-based Testing of GraphQL APIs
+
+* A catalogue of inter-parameter dependencies in RESTful web APIs
+
+* Generating an automated test suite by variable strength combinatorial testing for web services
+
+* RestTestGen: automated black-box testing of RESTful APIs
+
 
 ## Tools
 
