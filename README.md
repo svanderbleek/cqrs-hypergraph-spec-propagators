@@ -139,6 +139,22 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Web application development with third-party components https://tel.archives-ouvertes.fr/tel-02101381/document
 
+> * How to get the standard specifications of REST services?
+> * 2.2.2 Automated or semi-automated approaches . . . . . . . . . . . . . . 18
+> * 2.2.3 Crowd-sourcing approach . . . . . . . . . . . . . . . . . . . . . . . . . 22
+> * 4.3 ExtrateREST: an automated extractor for the generation of REST API specification
+> * 4.3.1 Global architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+> * 4.3.2 Step 1: gather relevant HTML documentation pages . . . . . . . . . 53
+> * 4.3.3 Step 2: extract information from relevant pages . . . . . . . . . . . . 55
+
+> * How to adapt to the data changes of REST services?
+> * 2.3.1 Pull mode and Push mode . . . . . . . . . . . . . . . . . . . . . . . . . 24
+> * 2.3.2 Transformation platforms . . . . . . . . . . . . . . . . . . . . . . . . . 25
+> * 2.3.3 JSON document and JSON patch . . . . . . . . . . . . . . . . . . . . . 28
+> * 2.3.4 JSON Patch Algorithms .
+> * 5.2 JDR: a JSON patch algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+> * 5.3 Efficiency evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75
+
 * Putting the semantics into semantic versioning https://arxiv.org/pdf/2008.07069
 
 * A catalogue of inter-parameter dependencies in RESTful web APIs http://personal.us.es/sergiosegura/files/papers/martinlopez19-icsoc.pdf
