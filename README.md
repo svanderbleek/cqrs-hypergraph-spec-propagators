@@ -409,6 +409,7 @@ The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorith
 * On the Effectiveness of Incremental Fact Extraction and Analysis
 * Graph data management of evolving dependency graphs for multi-versioned codebases
 * Towards Extracting Web API Specifications from Documentation
+* A Categorical Theory of Patches
 
 ### Data Driven
 
