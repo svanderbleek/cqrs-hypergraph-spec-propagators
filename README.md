@@ -895,6 +895,9 @@ The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorith
 * A Categorical Theory of Patches
 * Type Regression Testing to Detect Breaking Changes in Node.js Libraries
 * Putting the Semantics into Semantic Versioning
+* Resource and Dependency based Test Case Generation for RESTful Web Services
+* ARIANE: Automated Re-Documentation to Improve software Architecture uNderstanding and Evolution
+* A Principled Approach to Version Control
 
 ### Data Driven
 
