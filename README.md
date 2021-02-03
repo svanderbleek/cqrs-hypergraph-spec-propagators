@@ -93,6 +93,16 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+*  Differential regression testing for REST APIs https://patricegodefroid.github.io/public_psfiles/issta2020.pdf
+
+> For generating inputs (sequences of HTTP requests) to services, we use RESTler, a stateful fuzzer for REST APIs. Comparing the outputs (HTTP responses) of a cloud service involves several challenges, like abstracting over minor differences, handling out-of-order requests, and non-determinism
+
+> In order to test a service, it is necessary to exercise it with a client. In what follows, the pair (ci ,sj) will denote testing the service sj with a client ci matching (or automatically generated from) specification version i. Figure 2 shows the three possible testing configurations between the client/service versions n and n + 1 of a REST API, which are each denoted by an edge in Figure 2: 
+
+> • (cn,sn) corresponds to the vertical edge where inputs from old clients are sent to an old service version,
+> • (cn,sn+1) (the diagonal edge) is the state when the service is already updated, but the new specification not yet published, and
+> • (cn+1,sn+1) is the final configuration when both clients and service are updated.
+
 * Specification of Generic APIs, or: Why Algebraic May Be Better Than Pre/Post
 
 >  Unlike pre/post-based specification, which deals with the inputs and outputs of one operation at a time, algebraic specification deals with the relationships between the different operations in an API, which is needed in the specification of generic APIs.
@@ -125,9 +135,9 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * Formalization of component substitutability https://hal.archives-ouvertes.fr/hal-02136485
 
->  In this paper, we consider that component upgrade requires managing substitutability between the new and the old components. The substitutability check is based on dependency and context descriptions. It involves maintaining the availability of previously used services, while making sure that the effect of the new provided services do not disrupt the system and the context invariants are still preserved. We present here a formal definition and a verification algorithm for safe component substitutability.
+> In this paper, we consider that component upgrade requires managing substitutability between the new and the old components. The substitutability check is based on dependency and context descriptions. It involves maintaining the availability of previously used services, while making sure that the effect of the new provided services do not disrupt the system and the context invariants are still preserved. We present here a formal definition and a verification algorithm for safe component substitutability.
 
->  Component substitutability To decide whether a component Cnew can substitute a component Cold, it is necessary to compare what they provide and what they require. Indeed, the provided (or required) services of Cnew can be the same or different from those of Cold. We therefore have to study all the possibilities. Fig. 4 depicts the different possible relations between the old and the new set of provided (resp. required) services:
+> Component substitutability To decide whether a component Cnew can substitute a component Cold, it is necessary to compare what they provide and what they require. Indeed, the provided (or required) services of Cnew can be the same or different from those of Cold. We therefore have to study all the possibilities. Fig. 4 depicts the different possible relations between the old and the new set of provided (resp. required) services:
 
 > • case 1: the set of provided (resp. required) services of Cnew is included in
 the set of provided (resp. required) services of Cold;
@@ -161,9 +171,7 @@ the service S, signified by S = S ◦ ΔS. Versions of services can therefore be
 
 > 2) Behavioral Layer: The behavioral layer contains the records describing the perceived behavior of the service in terms of exchanges of messages grouped under service operations, and the conditions under which message exchanges may occur.
 
-> A number of different techniques have been proposed for describing and reasoning on the exchange of messages, such as business protocols based on finite state machines [27], [28] or deterministic finite automata [29], formal languages like TLA+ [30], communication action schemas [31], workflows [32], automata [33], timed protocols [34] and Calculus of Communicating S
-
-ystems (CCS)-like constructs [22]. A notation for the behavioral description of services (called (behavioral) contracts) has been proposed in [22], which is conceptually very similar to our approach. For this reason we rely on that work for the definition of behavioral description and show how the necessary constructs for applying it are incorporated into our model.
+> A number of different techniques have been proposed for describing and reasoning on the exchange of messages, such as business protocols based on finite state machines [27], [28] or deterministic finite automata [29], formal languages like TLA+ [30], communication action schemas [31], workflows [32], automata [33], timed protocols [34] and Calculus of Communicating Systems (CCS)-like constructs [22]. A notation for the behavioral description of services (called (behavioral) contracts) has been proposed in [22], which is conceptually very similar to our approach. For this reason we rely on that work for the definition of behavioral description and show how the necessary constructs for applying it are incorporated into our model.
 
 > In this paper we presented a theoretical framework and language-independent mechanisms to assist service developers in controlling and managing service changes in a uniform and consistent manner. For this purpose we distinguished between shallow (small-scale, localized) changes and deep (large-scale, cascading) changes and we focused on shallow changes. In particular, we provided a sound theory for service compatibility and reasoning mechanisms for delimiting the effect of changes which we keep local to and consistent with a service description. The approach proposed in this paper is in contrast to thevast majority of existing approaches in the field. Most such approaches view service compatibility as strictly enforced by a set of empirical and technology-specific rules (e.g. WSDLdependent guidelines) which indicate which changes are characterized as being compatible. This results in a very strict service evolution regime which prohibits potentially legitimate changes from being applied due to the limitations of current service technologies. We presented a formally-backed compatible service evolution framework which is based on a technology-agnostic notation for the representation of services in the form of Abstract Service Descriptions (ASDs). ASDs act as a springboard to explain the versioning mechanisms for services. Using these results, we formally defined service compatibility and developed a theory for the compatible evolution of services. As part of this approach we introduced the notion of Tshaped changes, which enforce service compatibility between interrelated service versions in two dimensions: horizontally and vertically. We also demonstrated how to reason about the compatibility of service versions using the Compatibility Checking Function (CCF) in order to decide if changes to them are T-shaped or not. 
 
