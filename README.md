@@ -91,6 +91,21 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 > Similarity between Service Features Annotated with LOD Resources - This section proposes a model to compute the semantic similarity among two service features annotated with LOD resources
 
+* Formalization of component substitutability https://hal.archives-ouvertes.fr/hal-02136485
+
+>  In this paper, we consider that component upgrade requires managing substitutability between the new and the old components. The substitutability check is based on dependency and context descriptions. It involves maintaining the availability of previously used services, while making sure that the effect of the new provided services do not disrupt the system and the context invariants are still preserved. We present here a formal definition and a verification algorithm for safe component substitutability.
+
+>  Component substitutability To decide whether a component Cnew can substitute a component Cold, it is necessary to compare what they provide and what they require. Indeed, the provided (or required) services of Cnew can be the same or different from those of Cold. We therefore have to study all the possibilities. Fig. 4 depicts the different possible relations between the old and the new set of provided (resp. required) services:
+
+> • case 1: the set of provided (resp. required) services of Cnew is included in
+the set of provided (resp. required) services of Cold;
+> • case 2: the set of provided (resp. required) services of Cnew and Cold are
+equal;
+> • case 3: the set of provided (resp. required) services of Cold is included in
+the set of provided (resp. required) services of Cnew;
+> • case 4: the two sets are different from each other and can have some services
+in common.
+
 * Dependency graphs with applications to verification http://people.cs.aau.dk/~srba/files/ELMS:STTT:20.pdf
 
 > Dependency graphs, as introduced more than 20 years ago by Liu and Smolka, are oriented graphs with hyperedges that connect nodes with sets of target nodes in order to represent causal dependencies in the graph. Numerous verification problems can be reduced into the problem of computing a minimum or maximum fixed-point assignment on dependency graphs
