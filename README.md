@@ -93,6 +93,14 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 ## Research
 
+* Opportunities in Software Engineering Research for Web API Consumption https://arxiv.org/pdf/1705.06586.pdf
+
+> We outline two specific research threads in this context: (1) web API specification curation, which enables us to know the signatures of web APIs, and (2) static analysis that is capable of extracting URLs, HTTP methods etc. of web API calls. Furthermore, we present new work on how we combine (1) and (2) to provide IDE support for application developers consuming web APIs. 
+
+* Inferring Web API Descriptions from Usage Data 
+
+> We describe a set of techniques to infer structured descriptions of web APIs from usage examples. Using trained classifiers, we identify fixed and variable segments in paths, and tag parameters according to their types
+
 * Trace Partitioning in Abstract Interpretation Based Static Analyzers http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E0354DE223C1928921984ED1DCF8D4D8?doi=10.1.1.80.3933&rep=rep1&type=pdf
 
 > This paper proposes a systematic way of regaining some knowledge about the traces by performing the abstraction over a partition of the set of traces instead of the set itself. This systematic refinement is not only theoretical but tractable: we give automatic procedures to build pertinent partitions of the traces and show the efficiency on an implementation integrated in the Astrée static analyzer, a tool capable of dealing with industrial-size software.
