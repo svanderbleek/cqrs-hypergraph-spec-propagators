@@ -89,6 +89,8 @@ title is a joke, research dumping ground for formal models of api dependencies
 
 * abstract interpretation https://en.m.wikipedia.org/wiki/Abstract_interpretation
 
+* symbolic execution https://en.m.wikipedia.org/wiki/Symbolic_execution
+
 ## Research
 
 * Trace Partitioning in Abstract Interpretation Based Static Analyzers http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E0354DE223C1928921984ED1DCF8D4D8?doi=10.1.1.80.3933&rep=rep1&type=pdf
