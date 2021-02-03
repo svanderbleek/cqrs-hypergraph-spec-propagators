@@ -477,6 +477,7 @@ The viterbi algorithm should help https://en.wikipedia.org/wiki/Viterbi_algorith
 
 ### Key Papers
 
+* Web application development with third-party components
 * A First Look at the Deprecation of RESTful APIs
 * On the Effectiveness of Incremental Fact Extraction and Analysis
 * Graph data management of evolving dependency graphs for multi-versioned codebases
