@@ -101,6 +101,8 @@ hi dad
 
 ## Research
 
+* Logic and Lattices for Distributed Programming https://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2012-167.pdf
+
 * A comprehensive study of Convergent and Commutative Replicated Data Types https://hal.inria.fr/inria-00555588/document
 
 * Building on Quicksand https://dsf.berkeley.edu/cs286/papers/quicksand-cidr2009.pdf
