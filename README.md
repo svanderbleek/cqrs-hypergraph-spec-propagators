@@ -4,7 +4,7 @@ hi dad
 
 ## Pitch
 
-infrastructure for static analysis
+infrastructure for static analysis of logs and other artifacts (code, documentation, configuration)
 
 ## Analysis
 
