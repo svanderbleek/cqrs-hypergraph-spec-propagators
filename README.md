@@ -101,7 +101,9 @@ hi dad
 
 ## Research
 
-* https://arxiv.org/abs/2101.01159
+* MCPA: Program Analysis as Machine Learning
+
+* New Directions in Cloud Programming https://arxiv.org/abs/2101.01159
 
 * Keeping CALM: When Distributed Consistency is Easy https://arxiv.org/abs/1901.01930
 
@@ -126,6 +128,10 @@ hi dad
 > path(x, s) ?
 
 > optimization cost of each path find minimum path
+
+> separation of policy and mechanism
+
+* BOOM Analytics: Exploring Data-Centric, Declarative Programming for the Cloud https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R212_2014_2015/papers/alvaro_eurosys_2010.pdf
 
 * Declarative Networking https://boonloo.cis.upenn.edu/papers/declarenet_cacm09.pdf
 
