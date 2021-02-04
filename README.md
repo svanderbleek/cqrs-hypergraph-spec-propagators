@@ -2,6 +2,21 @@
 
 hi dad
 
+## Topics
+
+* integrations
+* code
+* configuration
+* system logs
+* http fuzzing
+* mutation/property testing
+* on premise/cloud
+* open source
+
+## Project
+
+whatever httpinteraction interactionevent can be thought of as code and analyzed by static analysis
+
 ## Pitch
 
 infrastructure for static analysis of traces, logs, and other artifacts (code, documentation, configuration)
