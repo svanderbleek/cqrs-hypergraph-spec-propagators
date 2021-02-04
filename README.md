@@ -2,7 +2,7 @@
 
 hi dad
 
-## Approach
+## Analysis
 
 ```
 Trace -> Term
