@@ -101,6 +101,8 @@ hi dad
 
 ## Research
 
+* A comprehensive study of Convergent and Commutative Replicated Data Types https://hal.inria.fr/inria-00555588/document
+
 * Building on Quicksand https://dsf.berkeley.edu/cs286/papers/quicksand-cidr2009.pdf
 
 * Weaker Forms of Monotonicity for Declarative Networking: A More Fine-Grained Answer to the CALM-Conjecture
