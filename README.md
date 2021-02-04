@@ -99,6 +99,8 @@ there's too much existing research to finish a literature review given time limi
 
 * galois connection https://en.wikipedia.org/wiki/Galois_connection
 
+* shape analysis https://en.m.wikipedia.org/wiki/Shape_analysis_(program_analysis)
+
 ## Research
 
 * Hermes: an efficient algorithm for building Galois sub-hierarchies
