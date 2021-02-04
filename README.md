@@ -101,6 +101,8 @@ hi dad
 
 ## Research
 
+* Datalog with Negation and Monotonicity https://drops.dagstuhl.de/opus/volltexte/2020/11943/pdf/LIPIcs-ICDT-2020-19.pdf
+
 * datafun a functional datalog https://www.cl.cam.ac.uk/~nk480/datafun.pdf
 
 * Logic and Lattices for Distributed Programming https://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2012-167.pdf
