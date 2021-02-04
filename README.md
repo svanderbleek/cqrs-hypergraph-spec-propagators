@@ -158,6 +158,28 @@ Spec -> Term -> Spec
 
 ## Research
 
+* Profiling User Activities With Minimal Traffic Traces
+
+* WebEye– Automated Collection of Malicious HTTP Traffic
+
+* REST APIs: A Large-Scale Analysis of Compliance with Principles and Best Practices
+
+* Fine-Grained HTTP Web Traffic Analysis Based on Large-Scale Mobile Datasets
+
+* Pin: building customized program analysis tools with dynamic instrumentation
+
+* A novel approach to detect malware based on API call sequence analysis
+
+* Discovering Context Dependent Service Models for Stateful Service Virtualization
+
+* Network Message Syntax Reverse Engineering by Analysis of the Intrinsic Structure of Individual Messages
+
+* ARTISTE: Automatic Generation of Hybrid Data Structure Signatures from Binary Code Executions https://software.imdea.org/~juanca/papers/TR-IMDEA-SW-2012-001.pdf
+
+* Type Inference on Executables http://web.cse.ohio-state.edu/~lin.3021/file/CSUR16.pdf
+
+* State of the art of network protocol reverse engineering tools
+
 * Causality reasoning about network events for detecting stealthy malware activities
 
 * Detection of Stealthy Malware Activities with Traffic Causality and Scalable Triggering Relation Discovery
