@@ -2,6 +2,22 @@
 
 hi dad
 
+## Approach
+
+```
+Trace -> Term
+* Term -> Term -> Term
+
+Spec -> Term -> Spec
+/\ Spec -> Spec -> Spec
+```
+
+* Define language we are learning terms of, possibly requiring a specialized logic
+* terms are compositional and there is a join semilattice of resulting specifications
+* categorical view of specs as push out as in category theory of patches
+* static shape analysis of bodies, api endpoints as paths
+* should generalize and compose in ways to allow for specification based dependency analysis thus allowing detecting breaking changes in dependent apis 
+
 ## Motivation
 
 * Versioning of Events in Event Sourced Systems https://www.infoq.com/news/2017/07/versioning-event-sourcing/
@@ -104,6 +120,8 @@ hi dad
 * event sourcing http://blog.leifbattermann.de/2017/04/21/12-things-you-should-know-about-event-sourcing/
 
 ## Research
+
+* TEST HARNESS FOR WEB BROWSER FUZZ TESTING http://jultika.oulu.fi/files/nbnfioulu-201504161396.pdf
 
 * Automated Specification Discovery via User-Defined Predicates https://research.tees.ac.uk/ws/files/6345250/325632.pdf
 
