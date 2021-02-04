@@ -101,6 +101,8 @@ hi dad
 
 ## Research
 
+* Automated Inference of Library Specifications for Source-Sink Property Verification http://utopia.cs.utexas.edu/wp-content/uploads/2015/08/aplas2013.pdf
+
 * MCPA: Program Analysis as Machine Learning
 
 * New Directions in Cloud Programming https://arxiv.org/abs/2101.01159
