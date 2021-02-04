@@ -99,6 +99,10 @@ hi dad
 
 * shape analysis https://en.m.wikipedia.org/wiki/Shape_analysis_(program_analysis)
 
+## Commentary
+
+* event sourcing http://blog.leifbattermann.de/2017/04/21/12-things-you-should-know-about-event-sourcing/
+
 ## Research
 
 * Datalog with Negation and Monotonicity https://drops.dagstuhl.de/opus/volltexte/2020/11943/pdf/LIPIcs-ICDT-2020-19.pdf
