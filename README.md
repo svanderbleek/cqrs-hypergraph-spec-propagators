@@ -121,6 +121,14 @@ Spec -> Term -> Spec
 
 ## Research
 
+* DROIDMAT: Android Malware Detection through Manifest and API Calls Tracing
+
+* CREDROID: ANDROID MALWARE DETECTION BY NETWORK TRAFFIC ANALYSIS https://www.researchgate.net/profile/Rishabh_Kaushal/publication/304995756_CREDROID_Android_malware_detection_by_network_traffic_analysis/links/5f9fc3e2a6fdccfd7b94a0a4/CREDROID-Android-malware-detection-by-network-traffic-analysis.pdf
+
+* TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones https://www.enck.org/pubs/osdi10-enck.pdf
+
+>  Dynamic taint analysis tracks how labeled data impacts other data in a way that might leak the original sensitive information. This tracking is often performed at the instruction level.
+
 * TEST HARNESS FOR WEB BROWSER FUZZ TESTING http://jultika.oulu.fi/files/nbnfioulu-201504161396.pdf
 
 * Automated Specification Discovery via User-Defined Predicates https://research.tees.ac.uk/ws/files/6345250/325632.pdf
