@@ -101,6 +101,8 @@ hi dad
 
 ## Research
 
+* dedalus https://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-173.pdf
+
 * Automated Inference of Library Specifications for Source-Sink Property Verification http://utopia.cs.utexas.edu/wp-content/uploads/2015/08/aplas2013.pdf
 
 * MCPA: Program Analysis as Machine Learning
