@@ -17,6 +17,7 @@ hi dad
 ## Projects
 
 * cqrs change log as consumable api
+* dynamic program analysis techniques can applied
 * whatever httpinteraction interactionevent can be thought of as code and analyzed by static analysis
 
 ## Pitch
@@ -147,6 +148,13 @@ Spec -> Term -> Spec
 * event sourcing http://blog.leifbattermann.de/2017/04/21/12-things-you-should-know-about-event-sourcing/
 
 * exploring execution trace analysis https://blog.quarkslab.com/exploring-execution-trace-analysis.html
+
+> In this article, we present some of our internal tools for the collection of execution traces and their off-line analysis, featuring:
+
+> * qtracer: a configurable trace collector;
+> * qtrace-db: a Python API to collect, read and manipulate execution traces;
+> * qtrace-analysis: the trace analysis module, with several analysis routines.
+> * qtrace-ida: an IDA plugin for the visualization of trace analysis results and timeless debugging.
 
 ## Research
 
