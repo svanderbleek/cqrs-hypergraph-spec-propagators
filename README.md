@@ -105,6 +105,8 @@ hi dad
 
 ## Research
 
+* Shape Analysis for Composite Data Structures
+
 * Datalog with Negation and Monotonicity https://drops.dagstuhl.de/opus/volltexte/2020/11943/pdf/LIPIcs-ICDT-2020-19.pdf
 
 * datafun a functional datalog https://www.cl.cam.ac.uk/~nk480/datafun.pdf
