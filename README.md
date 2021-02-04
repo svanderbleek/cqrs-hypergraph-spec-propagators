@@ -101,6 +101,8 @@ hi dad
 
 ## Research
 
+* Keeping CALM: When Distributed Consistency is Easy https://arxiv.org/abs/1901.01930
+
 * Toward a Programmable Cloud: CALM Foundations and Open Challenges https://popl21.sigplan.org/details/POPL-2021-research-papers/70/Toward-a-Programmable-Cloud-CALM-Foundations-and-Open-Challenges
 
 > Routing As Querying
