@@ -103,6 +103,8 @@ hi dad
 
 * Toward a Programmable Cloud: CALM Foundations and Open Challenges https://popl21.sigplan.org/details/POPL-2021-research-papers/70/Toward-a-Programmable-Cloud-CALM-Foundations-and-Open-Challenges
 
+> Routing As Querying
+
 * Declarative Networking https://boonloo.cis.upenn.edu/papers/declarenet_cacm09.pdf
 
 * Compositional Soundness Proofs of Abstract Interpreters https://www.informatik.uni-marburg.de/~seba/publications/arrow-abstract-interp.pdf
