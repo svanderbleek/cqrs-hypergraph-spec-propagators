@@ -1049,6 +1049,9 @@ SpyREST generates automated, customizable, version aware, and scenario based doc
 
 > Our goal is to create a machine-readable Wikipedia for REST APIs with the following principals
 
+* checkov https://www.checkov.io/
+
+> Checkov is written in Python and provides a simple method to write and manage codified, version-controlled policies.
 
 ## Oddshots
 
