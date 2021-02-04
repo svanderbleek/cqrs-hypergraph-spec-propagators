@@ -838,6 +838,14 @@ code base based on a selection of desired configuration options.
 
 > Pythia provides statistical correctness guarantees for fuzzing campaigns (correctness), and quantifies how difficult it is to discover paths in a program (difficulty)
 
+* rosette https://emina.github.io/rosette/
+
+> Rosette is a solver-aided programming language that extends Racket with language constructs for program synthesis, verification, and more. To verify or synthesize code, Rosette compiles it to logical constraints solved with off-the-shelf SMT solvers. By combining virtualized access to solvers with Racket’s metaprogramming, Rosette makes it easy to develop synthesis and verification tools for new languages. 
+
+* gillian https://vtss.doc.ic.ac.uk/research/gillian.html
+
+> Gillian is a multi-language platform for the development of compositional symbolic analysis tools. Gillian currently supports three flavours of analysis: symbolic testing, full verification based on separation logic, and automatic compositional testing based on bi-abduction. These analysis are, for the first time, unified in a common symbolic execution engine.
+
 ## Industry
 
 * Conventional Commits https://www.conventionalcommits.org/en/v1.0.0/
