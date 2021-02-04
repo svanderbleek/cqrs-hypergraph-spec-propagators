@@ -103,6 +103,8 @@ hi dad
 
 * Keeping CALM: When Distributed Consistency is Easy https://arxiv.org/abs/1901.01930
 
+> Intuitively, monotonic programs are “safe” in the face of missing information, and can proceed without coordination. Non-monotonic programs, by contrast, must be concerned that truth of a property could change in the face of new information. Therefore they cannot proceed until they know all information has arrived, requiring them to coordinate
+
 * Toward a Programmable Cloud: CALM Foundations and Open Challenges https://popl21.sigplan.org/details/POPL-2021-research-papers/70/Toward-a-Programmable-Cloud-CALM-Foundations-and-Open-Challenges
 
 > Routing As Querying
