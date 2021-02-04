@@ -101,6 +101,8 @@ hi dad
 
 ## Research
 
+* Weaker Forms of Monotonicity for Declarative Networking: A More Fine-Grained Answer to the CALM-Conjecture
+
 * Relational transducers for declarative networking https://arxiv.org/abs/1012.2858
 
 * Putting Logic-Based Distributed Systems on Stable Grounds https://arxiv.org/abs/1507.05539
