@@ -1,8 +1,6 @@
 # cqrs-hypergraph-spec-propagators
 
-title is a joke, research dumping ground for formal models of api dependencies
-
-there's too much existing research to finish a literature review given time limit so just going to build something
+hi dad
 
 ## Motivation
 
@@ -102,6 +100,8 @@ there's too much existing research to finish a literature review given time limi
 * shape analysis https://en.m.wikipedia.org/wiki/Shape_analysis_(program_analysis)
 
 ## Research
+
+* Compositional Soundness Proofs of Abstract Interpreters https://www.informatik.uni-marburg.de/~seba/publications/arrow-abstract-interp.pdf
 
 * Hermes: an efficient algorithm for building Galois sub-hierarchies
 
