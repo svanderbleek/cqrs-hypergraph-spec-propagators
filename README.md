@@ -4,7 +4,13 @@ hi dad
 
 ## Pitch
 
-infrastructure for static analysis of logs and other artifacts (code, documentation, configuration)
+infrastructure for static analysis of traces, logs, and other artifacts (code, documentation, configuration)
+
+sample module for behavior dependency analysis (similar to clojure spec)
+
+sample module for open api spec
+
+integrations into ci systems and ides
 
 ## Analysis
 
