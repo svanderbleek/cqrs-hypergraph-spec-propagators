@@ -12,11 +12,12 @@ hi dad
 * mutation/property testing
 * on premise/cloud
 * sessions, encodings, interparameter depedencies
-* open source
+* open source, sales contracts
 
-## Project
+## Projects
 
-whatever httpinteraction interactionevent can be thought of as code and analyzed by static analysis
+* cqrs change log as consumable api
+* whatever httpinteraction interactionevent can be thought of as code and analyzed by static analysis
 
 ## Pitch
 
@@ -144,6 +145,8 @@ Spec -> Term -> Spec
 ## Commentary
 
 * event sourcing http://blog.leifbattermann.de/2017/04/21/12-things-you-should-know-about-event-sourcing/
+
+* exploring execution trace analysis https://blog.quarkslab.com/exploring-execution-trace-analysis.html
 
 ## Research
 
