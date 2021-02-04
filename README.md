@@ -105,6 +105,14 @@ hi dad
 
 ## Research
 
+* Automated Specification Discovery via User-Defined Predicates https://research.tees.ac.uk/ws/files/6345250/325632.pdf
+
+* Observational Abstract Interpreters https://www.cc.gatech.edu/~rmangal3/papers/obsai_draft.pdf
+
+* ThreadSanitizer: data race detection in practice
+
+* TVLA: A System for Implementing Static Analyses
+
 * Shape Analysis for Composite Data Structures
 
 * Datalog with Negation and Monotonicity https://drops.dagstuhl.de/opus/volltexte/2020/11943/pdf/LIPIcs-ICDT-2020-19.pdf
