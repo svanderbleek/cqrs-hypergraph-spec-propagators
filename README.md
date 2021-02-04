@@ -101,6 +101,8 @@ hi dad
 
 ## Research
 
+* Building on Quicksand https://dsf.berkeley.edu/cs286/papers/quicksand-cidr2009.pdf
+
 * Weaker Forms of Monotonicity for Declarative Networking: A More Fine-Grained Answer to the CALM-Conjecture
 
 * Relational transducers for declarative networking https://arxiv.org/abs/1012.2858
