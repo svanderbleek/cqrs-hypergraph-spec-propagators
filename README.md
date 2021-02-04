@@ -11,6 +11,7 @@ hi dad
 * http fuzzing
 * mutation/property testing
 * on premise/cloud
+* sessions, encodings, interparameter depedencies
 * open source
 
 ## Project
