@@ -158,6 +158,8 @@ Spec -> Term -> Spec
 
 ## Research
 
+* Mantis: Predicting System Performance through Program Analysis and Modeling
+
 * Syntia: Synthesizing the Semantics of Obfuscated Code
 
 * All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)
