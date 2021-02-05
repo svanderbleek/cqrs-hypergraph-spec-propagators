@@ -158,8 +158,9 @@ Spec -> Term -> Spec
 
 ## Research
 
-* All You Ever Wanted to Know About
-Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)
+* Syntia: Synthesizing the Semantics of Obfuscated Code
+
+* All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)
 
 * Profiling User Activities With Minimal Traffic Traces
 
