@@ -160,6 +160,8 @@ Spec -> Term -> Spec
 
 ## Research
 
+* METRIC+: a metamorphic relation identification technique based on input plus output domains
+
 * https://scholar.google.com/scholar?cluster=8052992756801130303&hl=en&as_sdt=40005&sciodt=0,10
 
 * Mantis: Predicting System Performance through Program Analysis and Modeling
