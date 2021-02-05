@@ -160,6 +160,8 @@ Spec -> Term -> Spec
 
 ## Research
 
+* SafeRESTScript: Statically Checking REST API Consumers
+
 * METRIC+: a metamorphic relation identification technique based on input plus output domains
 
 * https://scholar.google.com/scholar?cluster=8052992756801130303&hl=en&as_sdt=40005&sciodt=0,10
@@ -592,6 +594,8 @@ Alanen and Porres [1] describe an algorithm how to compute elementary change ope
 
 * Example-driven web api specification discovery http://openaccess.uoc.edu/webapps/o2/bitstream/10609/78206/6/Ed-douibi_et_al_Example-driven_Web_API_Specification_Discovery_preprint.pdf
 
+> In this paper we present an exampledriven discovery process that generates model-based OpenAPI specifications for REST Web APIs by using API call examples. A tool implementing our approach and a community-driven repository for the discovered APIs are also presented.
+
 * Automatic generation of test cases for REST APIs: a specification-based approach https://modeling-languages.com/automatic-generation-of-test-cases-for-rest-apis/
 
 * Towards extracting web api specifications from documentation https://annieying.ca/papers/msr18.pdf
@@ -920,15 +924,45 @@ code base based on a selection of desired configuration options.
 
 * RestTestGen: automated black-box testing of RESTful APIs
 
+* Efficient Construction of Approximate Call Graphs for JavaScript IDE Services
+
 * Statically Checking Web API Requests in JavaScript
+
+> Our approach first extracts a request’s URL string, HTTP method, and the corresponding request data using an inter-procedural string analysis, and then checks whether the request conforms to given web API specifications. We evaluated our approach by checking whether web API requests in JavaScript files mined from GitHub are consistent or inconsistent with publicly available API specifications. 
 
 * WATAPI: composing web API specification from API documentations through an intelligent and interactive annotation tool
 
 * Automated web service specification generation through a transformation-based learning
 
+> In this paper, we introduce a novel transformation-based approach which crawls the web to collect web API documentations (unstructured documents). It generates a web API Language model from API documentations, employs different machine learning algorithms to extract information and produces a structured web API specification that compliant to Open API Specification (OAS) format.
+
 * Deep SAS: A Deep Signature-based API Specification Learning Approach
 
 > In this paper we introduce a novel approach to automating and standardizing usage information about APIs, combining several machine-learning algorithms in order to extract key attributes from API documentation and generate a machine readable Open API Specification (OAS). We develop i) a content-based learning model that identifies the context of a block of extracted API features; ii) a signature-based machine learning model that recognizes a sequence of successful/unsuccessful extracted API endpoints; and iii) a deep mapping model that pinpoints finegrained mapping of extracted API attributes to OAS objects.
+
+* API learning: applying machine learning to manage the rise of API economy
+
+* Opportunities in Software Engineering Research for Web API Consumption
+
+> We outline two specific research threads in this context: (1) web API specification curation, which enables us to know the signatures of web APIs, and (2) static analysis that is capable of extracting URLs, HTTP methods etc. of web API calls. Furthermore, we present new work on how we combine (1) and (2) to provide IDE support for application developers consuming web APIs
+
+* An analysis of public REST web service APIs
+
+* SpyREST: Automated RESTful API Documentation Using an HTTP Proxy Server
+
+* Automated generation of REST API specification from plain HTML documentation
+
+* Synthesizing highly expressive SQL queries from input-output examples
+
+* Example-Directed Synthesis: A Type Theoretic Interpretation
+
+* Component-Based Synthesis of Table Consolidation and Transformation Tasks from Examples ∗
+
+> Given a set of components together with their overapproximate first-order specifications, our method first generates a program sketch over a subset of the components and checks its feasibility using an SMT solver.
+
+* Learning to Learn Programs from Examples: Going Beyond Program Structure
+
+> Our work here gives a machine learning approach for learning to learn programs that departs from previous work by relying upon features that are independent of the program structure, instead relying upon a learned bias over program behaviors, and more generally over program execution traces. Our approach leverages abundant unlabeled data for semisupervised learning, and incorporates simple kinds of world knowledge for common-sense reasoning during program induction
 
 ## Tools
 
