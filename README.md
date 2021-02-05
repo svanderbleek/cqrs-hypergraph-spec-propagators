@@ -160,6 +160,8 @@ Spec -> Term -> Spec
 
 ## Research
 
+* Types to the Rescue: Verification of REST APIs Consumer Code
+
 * A Lexical and Semantical Analysis on REST Cloud Computing APIs
 
 * Generating Method Documentation Using Concrete Values from Executions
