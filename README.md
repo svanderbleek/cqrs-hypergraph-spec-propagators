@@ -160,6 +160,8 @@ Spec -> Term -> Spec
 
 ## Research
 
+* A Lexical and Semantical Analysis on REST Cloud Computing APIs
+
 * Generating Method Documentation Using Concrete Values from Executions
 
 > In this paper, we introduce DynamiDoc – a simple yet effective automated documentation approach based on dynamic analysis. It traces the program being executed and records string representations of concrete argument values, a return value, and a target object state before and after each method execution. 
@@ -988,6 +990,10 @@ code base based on a selection of desired configuration options.
 * Discovery and reuse of composition knowledge for assisted mashup development
 
 * Efficient, interactive recommendation of mashup composition knowledge
+
+* monitoring-aware ides http://pure.tudelft.nl/ws/portalfiles/portal/62265924/fse19.pdf
+
+> We propose an approach that integrates monitoring signals into the development environment and worklow. We conjecture that an IDE with such capability improves the performance of developers as time spent continuously context switching from development to monitoring would be eliminated. This paper takes a irst step towards understanding the beneits of a possible Monitoring-Aware IDE. We implemented a prototype of a Monitoring-Aware IDE, connected to the monitoring systems of Adyen, a large-scale payment company that performs intense monitoring in their software systems.
 
 ## Tools
 
