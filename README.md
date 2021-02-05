@@ -156,6 +156,8 @@ Spec -> Term -> Spec
 > * qtrace-analysis: the trace analysis module, with several analysis routines.
 > * qtrace-ida: an IDA plugin for the visualization of trace analysis results and timeless debugging.
 
+* lectures https://www.seas.harvard.edu/courses/cs252/2015fa/lectures/Lec08-DynamicAnalysis.pdf
+
 ## Research
 
 * Mantis: Predicting System Performance through Program Analysis and Modeling
