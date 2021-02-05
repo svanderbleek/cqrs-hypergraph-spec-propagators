@@ -160,6 +160,10 @@ Spec -> Term -> Spec
 
 ## Research
 
+* Generating GraphQL-Wrappers for REST(-like) APIs
+
+> We here assess the feasibility of automatically generating GraphQL wrappers for existing REST(-like) APIs. A wrapper, upon receiving GraphQL queries, translates them to requests against the target API. We discuss the challenges for creating such wrappers, including dealing with data sanitation, authentication, or handling nested queries. We furthermore present a prototypical implementation of OASGraph. OASGraph takes as input an OpenAPI Specification (OAS) describing an existing REST(-like) web API and generates a GraphQL wrapper for it.
+
 * Programming by Examples: PL meets ML
 
 * SafeRESTScript: Statically Checking REST API Consumers
