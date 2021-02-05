@@ -160,6 +160,8 @@ Spec -> Term -> Spec
 
 ## Research
 
+* Programming by Examples: PL meets ML
+
 * SafeRESTScript: Statically Checking REST API Consumers
 
 * METRIC+: a metamorphic relation identification technique based on input plus output domains
@@ -271,11 +273,8 @@ Spec -> Term -> Spec
 > Routing is transative closure problem so canonical in datalog
 
 > link(x, y)
-
 > path(x, y) :- link(x, y)
-
 > path(x, z) :- link(x, y), path(y, z)
-
 > path(x, s) ?
 
 > optimization cost of each path find minimum path
