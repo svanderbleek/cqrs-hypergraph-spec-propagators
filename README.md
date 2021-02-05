@@ -1120,6 +1120,10 @@ SpyREST generates automated, customizable, version aware, and scenario based doc
 
 > Checkov is written in Python and provides a simple method to write and manage codified, version-controlled policies.
 
+* rest case https://www.restcase.com/
+
+> Start developing your APIs with Design-first and Security-first approach using RestCase
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
