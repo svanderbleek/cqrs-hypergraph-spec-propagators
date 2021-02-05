@@ -174,6 +174,12 @@ Spec -> Term -> Spec
 
 * SafeRESTScript: Statically Checking REST API Consumers
 
+> This paper presents an approach to API consumer code development based on two new languages: HeadREST, a specification language for REST APIs with a rich type system that supports the specification of semantic aspects of REST APIs in a style reminiscent of Hoare triples; and SRS (short for SafeRESTScript), a subset of JavaScript equipped with (i) types and strong static analysis and (ii) primitives to natively support REST calls that are statically validated against HeadREST specifications of the corresponding APIs
+
+* HeadREST: A Specification Language for RESTful APIs http://rss.di.fc.ul.pt/wp-content/uploads/2019/04/roccoFestschrift2019.pdf
+
+> In this paper we present HeadREST, a dependently-typed language that allows describing semantic aspects of interfaces in a style reminiscent of Hoare triples.
+
 * METRIC+: a metamorphic relation identification technique based on input plus output domains
 
 * https://scholar.google.com/scholar?cluster=8052992756801130303&hl=en&as_sdt=40005&sciodt=0,10
