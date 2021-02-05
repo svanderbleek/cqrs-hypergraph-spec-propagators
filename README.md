@@ -160,6 +160,8 @@ Spec -> Term -> Spec
 
 ## Research
 
+* Automated Example Oriented REST API spyDocumentation
+
 * Robust Contract Evolution in a TypeSafe MicroServices Architecture https://arxiv.org/abs/2002.06185
 
 > We present a microservice management system that statically verifies service interfaces and supports the seamless evolution of compatible interfaces. We define a compatibility relation that captures real evolution patterns and embodies known good practices on the evolution of interfaces. Namely, we allow for the addition, removal, and renaming of data fields of a producer module without breaking or needing to upgrade consumer services. The evolution of interfaces is supported by runtime generated proxy components that dynamically adapt data exchanged between services to match with the statically checked service code.The model was instantiated in a core language whose semantics is defined by a labeled transition system and a type system that prevents breaking changes from being deployed
