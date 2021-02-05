@@ -160,6 +160,10 @@ Spec -> Term -> Spec
 
 ## Research
 
+* Generating Method Documentation Using Concrete Values from Executions
+
+> In this paper, we introduce DynamiDoc – a simple yet effective automated documentation approach based on dynamic analysis. It traces the program being executed and records string representations of concrete argument values, a return value, and a target object state before and after each method execution. 
+
 * Generating GraphQL-Wrappers for REST(-like) APIs
 
 > We here assess the feasibility of automatically generating GraphQL wrappers for existing REST(-like) APIs. A wrapper, upon receiving GraphQL queries, translates them to requests against the target API. We discuss the challenges for creating such wrappers, including dealing with data sanitation, authentication, or handling nested queries. We furthermore present a prototypical implementation of OASGraph. OASGraph takes as input an OpenAPI Specification (OAS) describing an existing REST(-like) web API and generates a GraphQL wrapper for it.
@@ -967,7 +971,29 @@ code base based on a selection of desired configuration options.
 
 > Our work here gives a machine learning approach for learning to learn programs that departs from previous work by relying upon features that are independent of the program structure, instead relying upon a learned bias over program behaviors, and more generally over program execution traces. Our approach leverages abundant unlabeled data for semisupervised learning, and incorporates simple kinds of world knowledge for common-sense reasoning during program induction
 
+* Discovering Implicit Schemas in JSON Data
+
+* Composing JSON-based Web APIs 
+
+> The exchange of data with these APIs is usually performed by using JSON, a schemaless data format easy for computers to parse and use. While JSON data is easy to read, its structure is implicit, thus entailing serious problems when integrating APIs coming from different vendors. Web developers have therefore to understand the domain behind each API and study how they can be composed. We tackle this issue by presenting an approach able to both discover the domain of JSON-based Web APIs and identify composition links among them. Our approach allows developers to easily visualize what is behind APIs and how they can be composed to be used in their applications.
+
+* WAPIml: Towards a modeling infrastructure for Web APIs
+
+> In this paper, we propose WAPIML an OpenAPI round-trip tool that leverages modeldriven techniques to create, visualize, manage, and generate OpenAPI definitions.
+
+* Automated discovery, interaction and composition of Semantic Web services
+
+* A bottom-up, knowledge-aware approach to integrating and querying web data services
+
+* Discovery and reuse of composition knowledge for assisted mashup development
+
+* Efficient, interactive recommendation of mashup composition knowledge
+
 ## Tools
+
+* https://github.com/opendata-for-all/wapiml
+
+> An OpenAPI round-trip tool that leverages model-driven techniques to create, visualize, manage, and generate OpenAPI definitions.
 
 * a verification tool for weighted kripke graphs https://github.com/jonasfj/WKTool
 
@@ -1080,6 +1106,17 @@ code base based on a selection of desired configuration options.
 * gillian https://vtss.doc.ic.ac.uk/research/gillian.html
 
 > Gillian is a multi-language platform for the development of compositional symbolic analysis tools. Gillian currently supports three flavours of analysis: symbolic testing, full verification based on separation logic, and automatic compositional testing based on bi-abduction. These analysis are, for the first time, unified in a common symbolic execution engine.
+
+* api discoverer https://github.com/opendata-for-all/APIDiscoverer
+
+> APIDiscoverer generates an OpenAPI description (version 2.0) by examining and analyzing a sample of requests/responses sent/received by a user when interacting with a REST Web API
+
+* json discoverer http://som-research.uoc.edu/tools/jsonDiscoverer/#/
+  * https://github.com/SOM-Research/jsonDiscoverer
+
+> The JSON discoverer allows you to discover the implicit schema of your JSON documents. Any JSON document includes both metadata (i.e., the schema) and data (i.e., the objects/values conforming to the schema). Given a (set of) JSON documents our discoverer analyzes the JSON data and generates for you a class diagram showing graphically the implicit JSON schema of your documents plus an object diagram representing their data.
+
+> http://som-research.uoc.edu/tools/jsonDiscoverer/#/
 
 ## Industry
 
