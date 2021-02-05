@@ -602,6 +602,8 @@ Alanen and Porres [1] describe an algorithm how to compute elementary change ope
 
 * APIComposer: Data-driven composition of REST APIs https://modeling-languages.com/wp-content/uploads/2018/08/esocc2018.pdf
 
+>  To facilitate this process, we propose an approach to automatically compose and orchestrate data-oriented REST APIs. For an initial set of REST APIs, we discover the data models, identify matching concepts, obtain a global model, and make the latter available on the Web as a global REST API. A prototype tool relying on OpenAPI for describing APIs and on OData for querying them is also provided.
+
 * REST API Auto Generation: A Model-Based Approach https://www.researchgate.net/profile/Samer_Zein/publication/344403957_REST_API_Auto_Generation_A_Model-Based_Approach/links/5f71dddba6fdcc0086438ed0/REST-API-Auto-Generation-A-Model-Based-Approach.pdf
 
 * Semantic Restful Service Composition Using Task Specification
@@ -918,6 +920,15 @@ code base based on a selection of desired configuration options.
 
 * RestTestGen: automated black-box testing of RESTful APIs
 
+* Statically Checking Web API Requests in JavaScript
+
+* WATAPI: composing web API specification from API documentations through an intelligent and interactive annotation tool
+
+* Automated web service specification generation through a transformation-based learning
+
+* Deep SAS: A Deep Signature-based API Specification Learning Approach
+
+> In this paper we introduce a novel approach to automating and standardizing usage information about APIs, combining several machine-learning algorithms in order to extract key attributes from API documentation and generate a machine readable Open API Specification (OAS). We develop i) a content-based learning model that identifies the context of a block of extracted API features; ii) a signature-based machine learning model that recognizes a sequence of successful/unsuccessful extracted API endpoints; and iii) a deep mapping model that pinpoints finegrained mapping of extracted API attributes to OAS objects.
 
 ## Tools
 
@@ -1083,7 +1094,6 @@ http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/
 
 > granmarly for your code 
 
-
 * https://meroxa.com/
 
 * https://www.basedash.com/
@@ -1123,6 +1133,14 @@ SpyREST generates automated, customizable, version aware, and scenario based doc
 * rest case https://www.restcase.com/
 
 > Start developing your APIs with Design-first and Security-first approach using RestCase
+
+* https://prevasio.com/
+
+> Industry’s First Dynamic Analysis of 4 million Publicly Available Docker Hub Container Images
+
+* dynatrace https://www.dynatrace.com/support/help/how-to-use-dynatrace/transactions-and-services/configuration/capture-request-attributes-based-on-web-request-data/
+
+> We deliver observability that's more than metrics, logs, and traces. Plus, support for the technologies you use most, and precise answers through a full-stack topological model
 
 ## Oddshots
 
