@@ -1034,6 +1034,10 @@ code base based on a selection of desired configuration options.
 
 > Dredd reads your API description and step by step validates whether your API implementation replies with responses as they are described in the documentation.
 
+* http tool kit https://httptoolkit.tech/
+
+> ntercept & view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors
+ 
 * tcases https://github.com/Cornutum/tcases
 
 > A model-based test case generator
