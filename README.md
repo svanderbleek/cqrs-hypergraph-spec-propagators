@@ -1240,6 +1240,14 @@ SpyREST generates automated, customizable, version aware, and scenario based doc
 
 > We deliver observability that's more than metrics, logs, and traces. Plus, support for the technologies you use most, and precise answers through a full-stack topological model
 
+* https://paw.cloud/
+
+> The most advanced API tool for Mac Paw is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It has a beautiful native macOS interface to compose requests, inspect server responses, generate client code and export API definitions.
+
+* rapidapi https://rapidapi.com/
+
+> Find, Connect to, and Manage thousands of APIs
+
 ## Oddshots
 
 * EVM semantics https://github.com/kframework/evm-semantics
